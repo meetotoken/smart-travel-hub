@@ -1,221 +1,227 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Verification & Canonical -->
-  <meta name="google-site-verification" content="y1kAGPH-Jt05hcOl20uPrcvPUoEu8hGuwSADVatI9MY" />
-  <link rel="canonical" href="https://tuo-username.github.io/smart-travel-hub/" />
-  
-  <!-- SEO Basics -->
-  <title>SmartTravelHub | Le Migliori Offerte e Servizi di Viaggio</title>
-  <meta name="description" content="Organizza il tuo viaggio low cost: compara voli, treni, trasferimenti, noleggia auto o moto, attiva eSIM e scopri tour guidati con SmartTravelHub.">
-  <meta name="robots" content="index, follow">
-  
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTravelHub | Il Tuo Hub Completo per Viaggiare Meglio</title>
+    <meta name="description" content="Confronta voli low cost, acquista eSIM, prenota transfer, noleggi e depositi bagagli. Tutti i migliori servizi di viaggio in un unico hub smart.">
+    <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/">
 
-  <!-- Open Graph / Social Media Meta Tags -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tuo-username.github.io/smart-travel-hub/">
-  <meta property="og:title" content="SmartTravelHub | Tutti i Servizi per il Tuo Viaggio">
-  <meta property="og:description" content="Confronta voli, treni, noleggi, eSIM e tour nelle principali città italiane ed europee.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/">
+    <meta property="og:title" content="SmartTravelHub | Il Tuo Hub Completo per Viaggiare Meglio">
+    <meta property="og:description" content="Tutti i migliori servizi per il tuo viaggio: voli, eSIM, transfer, noleggi e tour in un unico posto.">
+    <meta property="og:image" content="https://meetotoken.github.io/smart-travel-hub/og-image.jpg">
 
-  <!-- Schema.org Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "SmartTravelHub",
-    "url": "https://tuo-username.github.io/smart-travel-hub/",
-    "description": "Piattaforma e guide pratiche per organizzare viaggi low cost con i migliori partner ed eSIM."
-  }
-  </script>
-
-  <style>
-    :root {
-      --primary: #0055ff;
-      --primary-hover: #003db3;
-      --bg: #f8f9fa;
-      --card-bg: #ffffff;
-      --text: #212529;
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "SmartTravelHub",
+      "url": "https://meetotoken.github.io/smart-travel-hub/",
+      "description": "Hub di risorse e servizi affiliati per organizzare viaggi in modo semplice ed economico."
     }
-    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: var(--bg); color: var(--text); }
-    header { background: var(--primary); color: white; padding: 3rem 1rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { margin-top: 0.5rem; font-size: 1.2rem; opacity: 0.9; }
-    main { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
-    .section-title { text-align: center; margin-bottom: 2rem; color: #111; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-    .card { background: var(--card-bg); border: 1px solid #e9ecef; border-radius: 12px; padding: 1.5rem; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; }
-    .card h3 { margin-top: 0; color: #004085; }
-    .btn { display: inline-block; background: var(--primary); color: white; padding: 0.75rem 1.25rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem; transition: background 0.2s ease; }
-    .btn:hover { background: var(--primary-hover); }
-    .btn-green { background: #28a745; }
-    .btn-green:hover { background: #218838; }
-    .guides-section { margin-top: 4rem; background: #fff; padding: 2rem; border-radius: 12px; border: 1px solid #e9ecef; }
-    .guides-list { list-style: none; padding: 0; margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
-    .guides-list li { background: #f8f9fa; padding: 0.75rem 1rem; border-radius: 6px; border: 1px solid #eee; }
-    .guides-list a { color: var(--primary); font-weight: bold; text-decoration: none; }
-    .guides-list a:hover { text-decoration: underline; }
-    .creator-box { background: #eef4ff; border: 2px dashed #0055ff; border-radius: 12px; padding: 2rem; text-align: center; margin-top: 4rem; }
-    footer { text-align: center; padding: 2rem; background: #e9ecef; margin-top: 4rem; font-size: 0.9rem; color: #6c757d; }
-  </style>
+    </script>
+
+    <!-- Travelpayouts JS SDK / Script Tracking -->
+    <script async src="https://tp.media/content?currency=eur&promo_id=4054&shmarker=793698&campaign_id=100&target_host=www.aviasales.com&locale=it&pb=1" charset="utf-8"></script>
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
 
-  <header>
-    <h1>SmartTravelHub</h1>
-    <p>Tutti gli strumenti indispensabili per viaggiare al miglior prezzo</p>
-  </header>
-
-  <main>
-    <h2 class="section-title">Servizi e Risorse di Viaggio</h2>
-    
-    <div class="grid">
-      
-      <!-- Voli Low Cost (Aviasales) -->
-      <div class="card">
-        <div>
-          <h3>✈️ Voli Low Cost (Aviasales)</h3>
-          <p>Confronta centinaia di compagnie aeree e trova la tariffa più conveniente.</p>
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="https://meetotoken.github.io/smart-travel-hub/" class="text-2xl font-bold text-blue-600 flex items-center gap-2">
+                <i class="fa-solid font-bold fa-plane-departure"></i> SmartTravelHub
+            </a>
+            <nav class="hidden md:flex gap-6 text-sm font-medium">
+                <a href="#servizi" class="hover:text-blue-600">Servizi</a>
+                <a href="#guide" class="hover:text-blue-600">Guide Città</a>
+                <a href="#partner" class="hover:text-blue-600">Diventa Partner</a>
+            </nav>
         </div>
-        <a href="https://aviasales.tpx.gr/JTpX5Hj5" target="_blank" rel="nofollow noopener" class="btn">Cerca Voli</a>
-      </div>
+    </header>
 
-      <!-- Treni, Bus & Tour (Klook) -->
-      <div class="card">
-        <div>
-          <h3>🚆 Treni & Biglietti</h3>
-          <p>Prenota i tuoi spostamenti in treno o autobus in Italia ed Europa.</p>
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4">Pianifica il Tuo Viaggio Senza Stress</h1>
+            <p class="text-lg md:text-xl text-blue-100 mb-8">Voli, eSIM, noleggi, tour e depositi bagagli: scopri i migliori strumenti affiliati selezionati per te.</p>
         </div>
-        <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="nofollow noopener" class="btn">Cerca Treni</a>
-      </div>
-
-      <!-- eSIM Internet (Airalo) -->
-      <div class="card">
-        <div>
-          <h3>📱 eSIM Internet (Airalo)</h3>
-          <p>Rimani connesso all'estero senza pagare i costi di roaming.</p>
-        </div>
-        <a href="https://airalo.tpx.gr/hJpSw5Ad" target="_blank" rel="nofollow noopener" class="btn">Attiva eSIM Airalo</a>
-      </div>
-
-      <!-- Internet Illimitato (Yesim) -->
-      <div class="card">
-        <div>
-          <h3>📶 Dati Illimitati (Yesim)</h3>
-          <p>Schede eSIM virtuali con copertura internet rapida in oltre 150 paesi.</p>
-        </div>
-        <a href="https://yesim.tpx.gr/C15bITLH" target="_blank" rel="nofollow noopener" class="btn">Scopri Yesim</a>
-      </div>
-
-      <!-- Transfer Aeroportuali (KiwiTaxi) -->
-      <div class="card">
-        <div>
-          <h3>🚖 Transfer Aeroporto (KiwiTaxi)</h3>
-          <p>Prenota un NCC o un taxi privato dall'aeroporto direttamente all'hotel.</p>
-        </div>
-        <a href="https://kiwitaxi.tpx.gr/22k7QxQ7" target="_blank" rel="nofollow noopener" class="btn">Prenota Transfer</a>
-      </div>
-
-      <!-- Noleggio Auto (QEEQ) -->
-      <div class="card">
-        <div>
-          <h3>🚗 Noleggio Auto (QEEQ)</h3>
-          <p>Confronta le migliori compagnie di autonoleggio al prezzo più basso.</p>
-        </div>
-        <a href="https://qeeq.tpx.gr/kjB7p6Gy" target="_blank" rel="nofollow noopener" class="btn">Cerca Auto</a>
-      </div>
-
-      <!-- Noleggio Auto (GetRentACar) -->
-      <div class="card">
-        <div>
-          <h3>🚙 Noleggio Auto (GetRentACar)</h3>
-          <p>Noleggia auto da proprietari locali e compagnie indipendenti risparmiando.</p>
-        </div>
-        <a href="https://getrentacar.tpx.gr/NxDztw6h" target="_blank" rel="nofollow noopener" class="btn">Confronta Auto</a>
-      </div>
-
-      <!-- BikesBooking -->
-      <div class="card">
-        <div>
-          <h3>🚲 Noleggio Moto e Bici</h3>
-          <p>Prenota scooter, biciclette e moto nelle principali città turistiche.</p>
-        </div>
-        <a href="https://bikesbooking.tpx.gr/V2hLfaCr" target="_blank" rel="nofollow noopener" class="btn">Noleggia un Mezzo</a>
-      </div>
-
-      <!-- Radical Storage -->
-      <div class="card">
-        <div>
-          <h3>🧳 Deposito Bagagli</h3>
-          <p>Lascia le valigie in punti sicuri e verificati nei centri città.</p>
-        </div>
-        <a href="https://radicalstorage.tpx.gr/okqwOSpx" target="_blank" rel="nofollow noopener" class="btn">Trova Deposito</a>
-      </div>
-
-      <!-- AirHelp -->
-      <div class="card">
-        <div>
-          <h3>✈️ Volo in Ritardo? (AirHelp)</h3>
-          <p>Ottieni fino a 600€ di risarcimento per voli cancellati o in ritardo.</p>
-        </div>
-        <a href="https://airhelp.tpx.gr/4UrFZFRu" target="_blank" rel="nofollow noopener" class="btn">Richiedi Rimborso</a>
-      </div>
-
-      <!-- Tour e Attrazioni (KKday) -->
-      <div class="card">
-        <div>
-          <h3>🎟️ Tour e Esperienze (KKday)</h3>
-          <p>Scopri tour guidati, biglietti salta-fila ed escursioni uniche.</p>
-        </div>
-        <a href="https://kkday.tpx.gr/COsC7DNE" target="_blank" rel="nofollow noopener" class="btn">Esplora KKday</a>
-      </div>
-
-      <!-- WeGoTrip -->
-      <div class="card">
-        <div>
-          <h3>🎧 Audioguide Digitali</h3>
-          <p>Visite guidate e itinerari audio da ascoltare sullo smartphone.</p>
-        </div>
-        <a href="https://wegotrip.tpx.gr/oGelAczB" target="_blank" rel="nofollow noopener" class="btn">Scegli Audioguida</a>
-      </div>
-
-    </div>
-
-    <!-- Sezione Guide delle Città -->
-    <section class="guides-section">
-      <h2>🌍 Guide di Viaggio e Segreti delle Città</h2>
-      <p>Pianifica la tua prossima meta con le nostre guide dettagliate.</p>
-      <ul class="guides-list">
-        <li><a href="./guide/roma.html">📍 Roma: Guida e Segreti</a></li>
-        <li><a href="./guide/milano.html">📍 Milano: Design e Storia</a></li>
-        <li><a href="./guide/firenze.html">📍 Firenze: Culla del Rinascimento</a></li>
-        <li><a href="./guide/venezia.html">📍 Venezia: Canali e Misteri</a></li>
-        <li><a href="./guide/napoli.html">📍 Napoli: Arte e Sotterranei</a></li>
-        <li><a href="./guide/bologna.html">📍 Bologna: Portici e Torri</a></li>
-        <li><a href="./guide/torino.html">📍 Torino: Magia e Regge</a></li>
-        <li><a href="./guide/palermo.html">📍 Palermo: Arabo-Normanna</a></li>
-        <li><a href="./guide/verona.html">📍 Verona: Arena ed Amore</a></li>
-        <li><a href="./guide/catania.html">📍 Catania: Barocco ed Etna</a></li>
-      </ul>
     </section>
 
-    <!-- Box Referral Creator / Travelpayouts -->
-    <div class="creator-box">
-      <h3>Sei un Blogger o un Content Creator di Viaggi?</h3>
-      <p>Monetizza la tua passione iscrivendoti al network di affiliazione Travelpayouts.</p>
-      <a href="https://tpx.gr/8IIyHX5k" target="_blank" rel="nofollow noopener" class="btn btn-green">Diventa Partner Travelpayouts</a>
-    </div>
-  </main>
+    <!-- Main Services Grid -->
+    <main id="servizi" class="max-w-6xl mx-auto px-4 py-12 flex-grow">
+        <h2 class="text-2xl font-bold mb-8 text-center text-slate-900">Tutti i Servizi Essentials per il Tuo Viaggio</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- 1. Voli Low Cost -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-plane"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Voli Low Cost</h3>
+                    <p class="text-sm text-slate-600 mb-4">Trova e compara le migliori offerte per voli nazionali e internazionali con Aviasales.</p>
+                </div>
+                <a href="https://aviasales.tpx.gr/Nde5oFmC" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Cerca Voli</a>
+            </div>
 
-  <footer>
-    <p>&copy; 2026 SmartTravelHub. Tutti i diritti riservati.</p>
-    <p><small>Trasparenza: Questo sito contiene link di affiliazione. Se prenoti tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.</small></p>
-  </footer>
+            <!-- 2. Treni & Biglietti -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-train"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Treni & Biglietti</h3>
+                    <p class="text-sm text-slate-600 mb-4">Prenota biglietti per treni e trasporti in tutto il mondo con Klook.</p>
+                </div>
+                <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Prenota Treni</a>
+            </div>
+
+            <!-- 3. eSIM Internet -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-sim-card"></i></div>
+                    <h3 class="font-bold text-xl mb-2">eSIM Airalo</h3>
+                    <p class="text-sm text-slate-600 mb-4">Rimani sempre connesso all'estero senza costi di roaming con le eSIM Airalo.</p>
+                </div>
+                <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Acquista eSIM</a>
+            </div>
+
+            <!-- 4. Dati Illimitati -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-wifi"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Dati Illimitati Yesim</h3>
+                    <p class="text-sm text-slate-600 mb-4">Connessione dati ad alta velocità e piani illimitati in oltre 150 Paesi.</p>
+                </div>
+                <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Scopri Yesim</a>
+            </div>
+
+            <!-- 5. Transfer Aeroporto -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-taxi"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Transfer Aeroporto</h3>
+                    <p class="text-sm text-slate-600 mb-4">Prenota taxi e shuttle privati dagli aeroporti con KiwiTaxi.</p>
+                </div>
+                <a href="https://kiwitaxi.tpx.gr/lztFNvIh" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Prenota Transfer</a>
+            </div>
+
+            <!-- 6. Noleggio Auto (QEEQ) -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-car"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Noleggio Auto (QEEQ)</h3>
+                    <p class="text-sm text-slate-600 mb-4">Offerte vantaggiose sul noleggio auto globale con tariffe trasparenti.</p>
+                </div>
+                <a href="https://qeeq.tpx.gr/Rjp9AwGK" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Noleggia Auto</a>
+            </div>
+
+            <!-- 7. Noleggio Auto (GetRentACar) -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-key"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Noleggio Auto (GetRentACar)</h3>
+                    <p class="text-sm text-slate-600 mb-4">Noleggia auto locali a prezzi competitivi direttamente dai proprietari.</p>
+                </div>
+                <a href="https://getrentacar.tpx.gr/ycgAFAUT" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Confronta Auto</a>
+            </div>
+
+            <!-- 8. Noleggio Moto e Bici -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-motorcycle"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Moto & Bici</h3>
+                    <p class="text-sm text-slate-600 mb-4">Esplora le città su due ruote con BikesBooking in tutto il mondo.</p>
+                </div>
+                <a href="https://bikesbooking.tpx.gr/bPqW91PG" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Trova Moto/Bici</a>
+            </div>
+
+            <!-- 9. Deposito Bagagli -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-suitcase"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Deposito Bagagli</h3>
+                    <p class="text-sm text-slate-600 mb-4">Lascia i tuoi bagagli in luoghi sicuri con Radical Storage.</p>
+                </div>
+                <a href="https://radicalstorage.tpx.gr/XR76jrDS" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Trova Deposito</a>
+            </div>
+
+            <!-- 10. Risarcimento Voli -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Risarcimento Voli</h3>
+                    <p class="text-sm text-slate-600 mb-4">Volo in ritardo o cancellato? Ottieni il tuo rimborso con AirHelp.</p>
+                </div>
+                <a href="https://airhelp.tpx.gr/8Ut5MUAB" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Richiedi Rimborso</a>
+            </div>
+
+            <!-- 11. Tour e Esperienze -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-ticket"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Tour & Attrazioni</h3>
+                    <p class="text-sm text-slate-600 mb-4">Acquista biglietti salta-fila ed esperienze uniche con KKday.</p>
+                </div>
+                <a href="https://kkday.tpx.gr/k08GceNY" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Esplora Tour</a>
+            </div>
+
+            <!-- 12. Audioguide Digitali -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-headphones"></i></div>
+                    <h3 class="font-bold text-xl mb-2">Audioguide Digitali</h3>
+                    <p class="text-sm text-slate-600 mb-4">Tour guidati su smartphone per scoprire le città con WeGoTrip.</p>
+                </div>
+                <a href="https://wegotrip.tpx.gr/IT3NT6uL" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition">Ascolta Guide</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- City Guides Section -->
+    <section id="guide" class="bg-slate-100 py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-bold mb-6 text-slate-900">Guide Utili per le Città</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="roma.html" class="bg-white p-4 rounded-lg shadow-sm font-semibold hover:text-blue-600 flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Guida Roma
+                </a>
+                <a href="milano.html" class="bg-white p-4 rounded-lg shadow-sm font-semibold hover:text-blue-600 flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Guida Milano
+                </a>
+                <a href="venezia.html" class="bg-white p-4 rounded-lg shadow-sm font-semibold hover:text-blue-600 flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Guida Venezia
+                </a>
+                <a href="firenze.html" class="bg-white p-4 rounded-lg shadow-sm font-semibold hover:text-blue-600 flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Guida Firenze
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Referral Section -->
+    <section id="partner" class="bg-white py-10 px-4 text-center border-t border-slate-200">
+        <div class="max-w-2xl mx-auto">
+            <h3 class="text-xl font-bold mb-2">Sei un blogger o un creatore di contenuti?</h3>
+            <p class="text-sm text-slate-600 mb-4">Guadagna sponsorizzando servizi di viaggio con la piattaforma Travelpayouts.</p>
+            <a href="https://www.travelpayouts.com/?marker=793698" target="_blank" rel="noopener" class="inline-block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-5 py-2 rounded-lg font-semibold transition text-sm">Unisciti a Travelpayouts</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-6 text-center text-xs">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="mb-2">&copy; SmartTravelHub. Tutti i diritti riservati.</p>
+            <p class="text-slate-500">Nota di trasparenza: Alcuni link presenti in questo sito sono link di affiliazione. Se decidi di acquistare un servizio tramite essi, potremmo ricevere una piccola commissione senza alcun costo aggiuntivo per te.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
