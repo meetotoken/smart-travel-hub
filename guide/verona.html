@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida Verona: Arena, Giulietta, Segreti e Consigli Pratici | SmartTravelHub</title>
-  <meta name="description" content="Pianifica la visita a Verona: Arena, Casa di Giulietta, Castelvecchio, depositi bagagli vicino alla stazione e consigli di viaggio.">
+  <title>Guida Verona: Hotel, Arena, Giulietta, Segreti e Consigli | SmartTravelHub</title>
+  <meta name="description" content="Pianifica la visita a Verona: dove alloggiare, Arena, Casa di Giulietta, Castelvecchio, depositi bagagli e noleggi per il Garda.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/verona.html">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Guida Verona: Arena, Giulietta, Segreti e Consigli Pratici">
-  <meta property="og:description" content="Organizza il tuo itinerario a Verona tra patrimonio UNESCO, spettacoli all'Arena ed enogastronomia.">
+  <meta property="og:title" content="Guida Verona: Hotel, Arena, Giulietta, Segreti e Consigli">
+  <meta property="og:description" content="Organizza il tuo itinerario a Verona tra alloggi romantici, spettacoli all'Arena ed enogastronomia.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/verona.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1596701062351-8c2c14d1fcd0?auto=format&fit=crop&w=1200&q=80">
 
@@ -31,12 +32,6 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Guide",
-            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "name": "Verona"
           }
         ]
@@ -95,6 +90,15 @@
 
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1596701062351-8c2c14d1fcd0?auto=format&fit=crop&w=1200&q=80" alt="Vista dell'Arena di Verona in Piazza Bra" loading="lazy">
+
+    <h2>🏨 Dove Dormire a Verona (I Migliori Posti)</h2>
+    <p>Alloggiare nel <strong>Centro Storico (Piazza Bra e Piazza delle Erbe)</strong> ti permette di raggiungere l'Arena a piedi anche dopo gli spettacoli lirici serali. Il quartiere di <strong>San Zeno</strong> offre un contesto residenziale suggestivo e tipiche osterie venete, mentre l'area intorno alla stazione di <strong>Porta Nuova</strong> è ideale per chi cerca hotel moderni a prezzi vantaggiosi e massima comodità di collegamento per il Lago di Garda e Venezia.</p>
+
+    <div class="box-info">
+      🏨 <strong>Offerte Hotel e Alloggi a Verona:</strong><br>
+      Trova strutture romantiche, B&B d'epoca e hotel moderni al miglior prezzo.<br>
+      <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="btn-link">Cerca Hotel a Verona su Klook</a>
+    </div>
 
     <h2>🚆 Arrivare a Verona Porta Nuova</h2>
     <p>La stazione di <strong>Verona Porta Nuova</strong> è il principale snodo ferroviario del Veneto scaligero, ottimamente collegata con Milano, Venezia e Firenze con treni ad alta velocità.</p>
@@ -175,7 +179,11 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;">
+      <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
+      <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Gestione Cookie</a> &bull; 
+      &copy; 2026
+    </p>
     <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
       Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
     </p>
@@ -226,6 +234,11 @@
       localStorage.setItem('sth_cookie_consent', 'denied');
       banner.style.display = 'none';
     });
+
+    function openCookieSettings() {
+      localStorage.removeItem('sth_cookie_consent');
+      banner.style.display = 'block';
+    }
   </script>
 </body>
 </html>
