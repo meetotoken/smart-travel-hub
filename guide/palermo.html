@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida Palermo: Arabo-Normanna, Mercati Storici e Consigli Pratici | SmartTravelHub</title>
-  <meta name="description" content="Esplora Palermo: la Cattedrale, la Cappella Palatina, i mercati di Ballarò e Vucciria, deposito bagagli e tour guidati.">
+  <title>Guida Palermo: Hotel, Cattedrale, Mercati Storici e Consigli | SmartTravelHub</title>
+  <meta name="description" content="Esplora Palermo: dove alloggiare, Cattedrale, Cappella Palatina, mercati di Ballarò e Vucciria, deposito bagagli e noleggi.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/palermo.html">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Guida Palermo: Arabo-Normanna, Mercati Storici e Consigli Pratici">
-  <meta property="og:description" content="Organizza il tuo viaggio a Palermo tra cultura millenaria, street food unico e mare mozzafiato.">
+  <meta property="og:title" content="Guida Palermo: Hotel, Cattedrale, Mercati Storici e Consigli">
+  <meta property="og:description" content="Organizza il tuo viaggio a Palermo tra alloggi caratteristici, arte arabo-normanna e street food.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/palermo.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1584646098378-0874589d76b1?auto=format&fit=crop&w=1200&q=80">
 
@@ -31,12 +32,6 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Guide",
-            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "name": "Palermo"
           }
         ]
@@ -96,8 +91,17 @@
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1584646098378-0874589d76b1?auto=format&fit=crop&w=1200&q=80" alt="Cattedrale di Palermo in stile arabo-normanno" loading="lazy">
 
+    <h2>🏨 Dove Alloggiare a Palermo</h2>
+    <p>Il quartiere di <strong>Politeama - Libertà</strong> offre viali ampi, boutique eleganti e sicurezza a due passi dalle navette aeroportuali. Per immergersi nei mercati storici e nella vita notturna, i quartieri della <strong>Kalsa</strong> e del <strong>Capo</strong> sono ricchi di B&B ricavati da antichi palazzi nobiliari ristrutturati.</p>
+
+    <div class="box-info">
+      🏨 <strong>Offerte Hotel e B&B a Palermo:</strong><br>
+      Confronta alloggi nei palazzi storici e strutture moderne al miglior prezzo garantito.<br>
+      <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="btn-link">Cerca Hotel a Palermo su Klook</a>
+    </div>
+
     <h2>🚆 Arrivare e Muoversi a Palermo</h2>
-    <p>Dall'aeroporto Falcone e Borsellino o dalla stazione di <strong>Palermo Centrale</strong>, muoversi in città è facile con i trasporti integrati e gli autobus.</p>
+    <p>Dall'aeroporto Falcone e Borsellino (collegato dal treno Trinacria Express) o dalla stazione di <strong>Palermo Centrale</strong>, muoversi in città è facile con i trasporti integrati e gli autobus.</p>
 
     <div class="box-info">
       🚆 <strong>Treni e Biglietti per Palermo:</strong><br>
@@ -176,7 +180,11 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;">
+      <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
+      <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Gestione Cookie</a> &bull; 
+      &copy; 2026
+    </p>
     <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
       Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
     </p>
@@ -227,6 +235,11 @@
       localStorage.setItem('sth_cookie_consent', 'denied');
       banner.style.display = 'none';
     });
+
+    function openCookieSettings() {
+      localStorage.removeItem('sth_cookie_consent');
+      banner.style.display = 'block';
+    }
   </script>
 </body>
 </html>
