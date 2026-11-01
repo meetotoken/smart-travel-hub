@@ -8,6 +8,11 @@
     <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
+    <!-- Tag Multilingua hreflang per Google -->
+    <link rel="alternate" hreflang="it" href="https://meetotoken.github.io/smart-travel-hub/">
+    <link rel="alternate" hreflang="en" href="https://meetotoken.github.io/smart-travel-hub/en/">
+    <link rel="alternate" hreflang="x-default" href="https://meetotoken.github.io/smart-travel-hub/en/">
+
     <!-- Open Graph / Social -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/">
@@ -63,25 +68,33 @@
 </head>
 <body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen antialiased">
 
-    <!-- Header & Navigation -->
+    <!-- Header con Selettore Lingua IT / EN -->
     <header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
         <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
             <a href="https://meetotoken.github.io/smart-travel-hub/" class="text-xl md:text-2xl font-black text-blue-600 flex items-center gap-2">
                 <i class="fa-solid fa-plane-departure"></i> SmartTravelHub
             </a>
             
-            <!-- Desktop Nav -->
-            <nav class="hidden md:flex gap-6 text-sm font-semibold text-slate-600">
-                <a href="#servizi" class="hover:text-blue-600 transition">Servizi</a>
-                <a href="#guide" class="hover:text-blue-600 transition">Guide Città</a>
-                <a href="#faq" class="hover:text-blue-600 transition">FAQ</a>
-                <a href="#partner" class="hover:text-blue-600 transition">Diventa Partner</a>
-            </nav>
+            <div class="flex items-center gap-4">
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex gap-6 text-sm font-semibold text-slate-600">
+                    <a href="#servizi" class="hover:text-blue-600 transition">Servizi</a>
+                    <a href="#guide" class="hover:text-blue-600 transition">Guide Città</a>
+                    <a href="#faq" class="hover:text-blue-600 transition">FAQ</a>
+                    <a href="#partner" class="hover:text-blue-600 transition">Diventa Partner</a>
+                </nav>
 
-            <!-- Mobile Menu Toggle Button -->
-            <button id="menu-btn" class="md:hidden text-slate-700 hover:text-blue-600 focus:outline-none p-2 text-xl" aria-label="Apri menu">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+                <!-- Language Switcher IT / EN -->
+                <div class="flex items-center bg-slate-100 p-1 rounded-lg text-xs font-bold text-slate-600 border border-slate-200">
+                    <span class="bg-white text-blue-600 shadow-sm px-2 py-1 rounded">🇮🇹 IT</span>
+                    <a href="en/index.html" class="px-2 py-1 rounded hover:text-blue-600 transition">🇬🇧 EN</a>
+                </div>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button id="menu-btn" class="md:hidden text-slate-700 hover:text-blue-600 focus:outline-none p-2 text-xl" aria-label="Apri menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </div>
 
         <!-- Mobile Drawer Menu -->
@@ -90,6 +103,10 @@
             <a href="#guide" class="block hover:text-blue-600 mobile-link">Guide Città</a>
             <a href="#faq" class="block hover:text-blue-600 mobile-link">Domande Frequenti (FAQ)</a>
             <a href="#partner" class="block hover:text-blue-600 mobile-link">Diventa Partner</a>
+            <div class="pt-2 border-t border-slate-100 flex gap-2 text-xs font-bold">
+                <span class="px-3 py-1.5 rounded bg-blue-600 text-white">🇮🇹 Italiano</span>
+                <a href="en/index.html" class="px-3 py-1.5 rounded bg-slate-100 text-slate-700">🇬🇧 English</a>
+            </div>
         </div>
     </header>
 
@@ -116,7 +133,7 @@
         </div>
     </section>
 
-    <!-- Filter Buttons (Con categoria Alloggi) -->
+    <!-- Filter Buttons -->
     <div class="max-w-6xl mx-auto px-4 pt-10">
         <div class="flex flex-wrap items-center justify-center gap-2">
             <button class="filter-btn active bg-blue-600 text-white px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="all">Tutti</button>
@@ -145,7 +162,7 @@
                 <a href="https://aviasales.tpx.gr/Nde5oFmC" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Cerca Voli Economici</a>
             </div>
 
-            <!-- 2. Hotel & Soggiorni (Klook) -->
+            <!-- 2. Hotel & Soggiorni -->
             <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="alloggi">
                 <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
                     Miglior Prezzo
