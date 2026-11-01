@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tuo-username.github.io/smart-travel-hub/sitemap.xml
+Sitemap: https://meetotoken.github.io/smart-travel-hub/sitemap.xml
