@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida Firenze: Arte, Chicche Storiche e Consigli Pratici | SmartTravelHub</title>
-  <meta name="description" content="Pianifica la tua visita a Firenze: la Galleria degli Uffizi, il Duomo, le curiosità nascoste e i migliori consigli per muoverti ed evitare le code.">
+  <title>Guida Firenze: Hotel, Arte Rinascimentale e Consigli Pratici | SmartTravelHub</title>
+  <meta name="description" content="Pianifica la tua visita a Firenze: dove dormire, Galleria degli Uffizi, Duomo, buchette del vino e consigli per evitare le code.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/firenze.html">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Guida Firenze: Arte, Chicche Storiche e Consigli Pratici">
-  <meta property="og:description" content="Scopri la culla del Rinascimento senza perdere tempo in coda tra capolavori, Uffizi e buchette del vino.">
+  <meta property="og:title" content="Guida Firenze: Hotel, Arte Rinascimentale e Consigli Pratici">
+  <meta property="og:description" content="Scopri la culla del Rinascimento tra hotel di charme, Uffizi e buchette del vino.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/firenze.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1200&q=80">
 
@@ -31,12 +32,6 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Guide",
-            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "name": "Firenze"
           }
         ]
@@ -96,8 +91,17 @@
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1200&q=80" alt="Vista panoramica di Firenze con il Duomo e Ponte Vecchio" loading="lazy">
 
+    <h2>🏨 Dove Soggiornare a Firenze (I Quartieri Migliori)</h2>
+    <p>Per essere a pochi passi dagli Uffizi e dal Duomo, il <strong>Centro Storico</strong> è imbattibile. Se cerchi un'atmosfera più autentica e bohémien, opta per l'<strong>Oltrarno (Santo Spirito e San Frediano)</strong>, ricco di botteghe artigiane e trattorie tipiche toscane. Per chi viaggia in treno, la zona intorno a <strong>Santa Maria Novella</strong> consente di lasciare subito i bagagli senza perdere tempo.</p>
+
+    <div class="box-info">
+      🏨 <strong>Offerte Hotel & Alloggi a Firenze:</strong><br>
+      Trova boutique hotel storici, B&B e appartamenti con vista sulla Cupola del Brunelleschi.<br>
+      <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="btn-link">Cerca Hotel a Firenze su Klook</a>
+    </div>
+
     <h2>🚆 Come Arrivare e Spostarsi a Firenze</h2>
-    <p>La stazione di <strong>Firenze Santa Maria Novella (SMN)</strong> si trova in pieno centro ed è perfettamente collegata dai treni ad alta velocità. Se arrivi in aereo all'Aeroporto di Firenze Peretola o Pisa, prenota i biglietti in anticipo.</p>
+    <p>La stazione di <strong>Firenze Santa Maria Novella (SMN)</strong> si trova in pieno centro ed è perfettamente collegata dai treni ad alta velocità. Se arrivi in aereo all'Aeroporto di Firenze Peretola o Pisa, prenota i biglietti della navetta o della tramvia T2 in anticipo.</p>
 
     <div class="box-info">
       🚆 <strong>Treni e Biglietti per Firenze:</strong><br>
@@ -175,7 +179,11 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;">
+      <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
+      <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Gestione Cookie</a> &bull; 
+      &copy; 2026
+    </p>
     <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
       Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
     </p>
@@ -226,6 +234,11 @@
       localStorage.setItem('sth_cookie_consent', 'denied');
       banner.style.display = 'none';
     });
+
+    function openCookieSettings() {
+      localStorage.removeItem('sth_cookie_consent');
+      banner.style.display = 'block';
+    }
   </script>
 </body>
 </html>
