@@ -7,12 +7,14 @@
   <meta name="description" content="Pianifica la tua visita a Firenze: la Galleria degli Uffizi, il Duomo, le curiosità nascoste e i migliori consigli per muoverti ed evitare le code.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/firenze.html">
 
+  <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
   <meta property="og:title" content="Guida Firenze: Arte, Chicche Storiche e Consigli Pratici">
-  <meta property="og:description" content="Scopri la culla del Rinascimento senza perdere tempo in coda tra capolavori e buchette del vino.">
+  <meta property="og:description" content="Scopri la culla del Rinascimento senza perdere tempo in coda tra capolavori, Uffizi e buchette del vino.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/firenze.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1200&q=80">
 
+  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -20,39 +22,71 @@
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://meetotoken.github.io/smart-travel-hub/"},
-          {"@type": "ListItem", "position": 2, "name": "Guide", "item": "https://meetotoken.github.io/smart-travel-hub/#guide"},
-          {"@type": "ListItem", "position": 3, "name": "Firenze"}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://meetotoken.github.io/smart-travel-hub/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide",
+            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Firenze"
+          }
         ]
       },
-      {"@type": "TouristDestination", "name": "Firenze", "description": "Guida turistica e pratica per visitare Firenze."}
+      {
+        "@type": "TouristDestination",
+        "name": "Firenze",
+        "description": "Guida turistica e pratica per visitare Firenze e la Toscana."
+      }
     ]
   }
   </script>
 
   <style>
-    :root { --primary: #2563eb; --primary-hover: #1d4ed8; --bg: #f8fafc; --text: #1e293b; --border: #e2e8f0; }
+    :root { 
+      --primary: #2563eb; 
+      --primary-hover: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text: #1e293b;
+      --border: #e2e8f0;
+    }
     body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; color: var(--text); max-width: 920px; margin: 0 auto; padding: 1.5rem; background: var(--bg); }
     header { border-bottom: 2px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 2rem; }
-    .nav-back { display: inline-flex; align-items: center; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.95rem; margin-bottom: 1rem; }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.95rem; margin-bottom: 1rem; }
+    .nav-back:hover { text-decoration: underline; }
     h1 { color: #0f172a; font-size: 2.2rem; font-weight: 800; line-height: 1.25; margin: 0.5rem 0; }
     .subtitle { color: #64748b; font-size: 1.1rem; }
+    
     .hero-img { width: 100%; height: 380px; object-fit: cover; border-radius: 14px; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
     .content-img { width: 100%; height: 280px; object-fit: cover; border-radius: 10px; margin: 1.5rem 0; }
-    .box-info { background: #eff6ff; border-left: 5px solid var(--primary); padding: 1.25rem; margin: 1.5rem 0; border-radius: 8px; }
+    
+    .box-info { background: #eff6ff; border-left: 5px solid var(--primary); padding: 1.25rem; margin: 1.5rem 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); }
     .btn-link { display: inline-block; background: var(--primary); color: white; padding: 0.75rem 1.4rem; border-radius: 8px; text-decoration: none; font-weight: 700; margin-top: 0.75rem; transition: background 0.2s; }
     .btn-link:hover { background: var(--primary-hover); }
+    
     .grid-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
-    .tool-card { background: white; border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; text-align: center; }
+    .tool-card { background: white; border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.03); }
     .tool-card h4 { margin: 0 0 0.5rem 0; color: #0f172a; font-size: 1.1rem; }
+    
     .city-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
-    .city-pill { background: white; border: 1px solid var(--border); padding: 0.4rem 0.8rem; border-radius: 20px; text-decoration: none; color: #334155; font-size: 0.85rem; font-weight: 600; }
+    .city-pill { background: white; border: 1px solid var(--border); padding: 0.4rem 0.8rem; border-radius: 20px; text-decoration: none; color: #334155; font-size: 0.85rem; font-weight: 600; transition: all 0.2s; }
     .city-pill:hover { border-color: var(--primary); color: var(--primary); }
+
     footer { margin-top: 4rem; text-align: center; font-size: 0.85rem; color: #64748b; border-top: 1px solid var(--border); padding-top: 2rem; }
     .cookie-banner { position: fixed; bottom: 1rem; right: 1rem; max-width: 380px; background: white; padding: 1.2rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); border: 1px solid var(--border); z-index: 1000; display: none; }
   </style>
 </head>
 <body>
+
   <header>
     <a href="../index.html" class="nav-back">← Torna alla Home di SmartTravelHub</a>
     <h1>Firenze: Culla del Rinascimento, Segreti e Consigli Pratici</h1>
@@ -63,7 +97,7 @@
     <img class="hero-img" src="https://images.unsplash.com/photo-1543429776-2782fc8e1acd?auto=format&fit=crop&w=1200&q=80" alt="Vista panoramica di Firenze con il Duomo e Ponte Vecchio" loading="lazy">
 
     <h2>🚆 Come Arrivare e Spostarsi a Firenze</h2>
-    <p>La stazione di <strong>Firenze Santa Maria Novella (SMN)</strong> si trova in pieno centro ed è perfettamente collegata dai treni ad alta velocità. Se arrivi in aereo a Firenze Peretola o Pisa, prenota i collegamenti in anticipo.</p>
+    <p>La stazione di <strong>Firenze Santa Maria Novella (SMN)</strong> si trova in pieno centro ed è perfettamente collegata dai treni ad alta velocità. Se arrivi in aereo all'Aeroporto di Firenze Peretola o Pisa, prenota i biglietti in anticipo.</p>
 
     <div class="box-info">
       🚆 <strong>Treni e Biglietti per Firenze:</strong><br>
@@ -72,7 +106,7 @@
     </div>
 
     <h2>🧳 Deposito Bagagli a Firenze Santa Maria Novella</h2>
-    <p>Esplorare i vicoli del centro o salire sulla Cupola del Brunelleschi con le valigie è un'impresa. Lascia i bagagli in punti sicuri vicini alla stazione o a Piazza della Signoria.</p>
+    <p>Esplorare i vicoli del centro o salire sulla Cupola del Brunelleschi con le valigie è un'impresa. Lascia i bagagli in punti sicuri e verificati vicini alla stazione o a Piazza della Signoria.</p>
 
     <div class="box-info">
       🧳 <strong>Lascia i Bagagli in Sicurezza:</strong><br>
@@ -81,7 +115,7 @@
 
     <h2>🏛️ Musei Imperdibili & Biglietti Salta-Fila</h2>
     <img class="content-img" src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=900&q=80" alt="Galleria degli Uffizi e centro storico di Firenze" loading="lazy">
-    <p>La <strong>Galleria degli Uffizi</strong>, la <strong>Galleria dell'Accademia</strong> (con il David originale) e il <strong>Complesso del Duomo</strong> richiedono la prenotazione del biglietto con orario riservato.</p>
+    <p>La <strong>Galleria degli Uffizi</strong> (Botticelli, Leonardo, Raffaello), la <strong>Galleria dell'Accademia</strong> (con il David originale di Michelangelo) e il <strong>Complesso del Duomo</strong> richiedono la prenotazione del biglietto a orario riservato.</p>
 
     <div class="box-info">
       🎟️ <strong>Biglietti Uffizi e David:</strong><br>
@@ -90,37 +124,39 @@
 
     <h2>📜 Curiosità e Segreti Storici di Firenze</h2>
     <ul>
-      <li><strong>Le Buchette del Vino:</strong> Nel centro noterai piccole finestrelle nelle facciate dei palazzi nobiliari: servivano nel '600 per vendere fiaschi di vino direttamente ai passanti senza contatto umano.</li>
-      <li><strong>Il Corridoio Vasariano:</strong> Un passaggio sopraelevato di quasi 1 km che collegava Palazzo Vecchio a Palazzo Pitti passando sopra Ponte Vecchio.</li>
-      <li><strong>L'Importuno di Michelangelo:</strong> In un angolo di Palazzo Vecchio c'è un volto inciso su una pietra: la leggenda narra che Michelangelo lo scolpì a memoria dando le spalle a un seccatore!</li>
+      <li><strong>Le Buchette del Vino:</strong> Nel centro di Firenze noterai piccole finestrelle nelle pareti dei palazzi nobiliari: venivano usate nel '600 per vendere fiaschi di vino direttamente ai passanti senza contatto umano.</li>
+      <li><strong>Il Corridoio Vasariano:</strong> Un passaggio sopraelevato lungo quasi 1 km che collegava Palazzo Vecchio a Palazzo Pitti passando sopra Ponte Vecchio, usato dai Medici per spostarsi al sicuro.</li>
+      <li><strong>L'Importuno di Michelangelo:</strong> In un angolo di Palazzo Vecchio c'è il profilo di un volto inciso su una pietra: la leggenda vuole che Michelangelo lo abbia scolpito a memoria voltato di spalle mentre veniva infastidito da un seccatore!</li>
     </ul>
 
     <h2>🌐 Servizi Utili per il tuo Soggiorno</h2>
     <ul>
-      <li>📱 <strong>eSIM Dati:</strong> Resta connesso per consultare mappe con l'eSIM di <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored">Airalo</a> o i dati illimitati di <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored">Yesim</a>.</li>
-      <li>🚗 <strong>Noleggio Auto in Toscana:</strong> Per visitare la Val d'Orcia, San Gimignano o il Chianti, confronta le auto su <a href="https://autoeurope.tpx.gr/TP3VldE6" target="_blank" rel="noopener sponsored">Auto Europe</a>.</li>
+      <li>📱 <strong>eSIM Dati:</strong> Resta sempre connesso per consultare mappe con l'eSIM di <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored">Airalo</a> o i dati illimitati di <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored">Yesim</a>.</li>
+      <li>🚗 <strong>Noleggio Auto in Toscana:</strong> Se vuoi visitare la Val d'Orcia, San Gimignano o il Chianti, confronta le auto su <a href="https://autoeurope.tpx.gr/TP3VldE6" target="_blank" rel="noopener sponsored">Auto Europe</a>.</li>
     </ul>
 
     <hr style="margin-top: 3rem; border: 0; border-top: 1px solid var(--border);">
+    
     <h3 style="text-align: center;">🛠️ Strumenti Consigliati per Firenze</h3>
     <div class="grid-tools">
       <div class="tool-card">
         <h4>🚕 Transfer Aeroporto</h4>
-        <p style="font-size: 0.9rem; color: #64748b;">Da Peretola o Pisa aeroporto</p>
+        <p style="font-size: 0.9rem; color: #64748b;">Da Peretola o Pisa aeroporto al centro</p>
         <a href="https://kiwitaxi.tpx.gr/lztFNvIh" target="_blank" rel="noopener sponsored" class="btn-link">Prenota KiwiTaxi</a>
       </div>
       <div class="tool-card">
         <h4>🎧 Audioguide</h4>
-        <p style="font-size: 0.9rem; color: #64748b;">Itinerari audio per il centro</p>
+        <p style="font-size: 0.9rem; color: #64748b;">Itinerari audio per il centro storico</p>
         <a href="https://wegotrip.tpx.gr/IT3NT6uL" target="_blank" rel="noopener sponsored" class="btn-link">Audioguide WeGoTrip</a>
       </div>
       <div class="tool-card">
         <h4>✈️ Volo in Ritardo?</h4>
-        <p style="font-size: 0.9rem; color: #64748b;">Richiedi fino a 600€</p>
+        <p style="font-size: 0.9rem; color: #64748b;">Richiedi fino a 600€ di risarcimento</p>
         <a href="https://airhelp.tpx.gr/8Ut5MUAB" target="_blank" rel="noopener sponsored" class="btn-link">Verifica con AirHelp</a>
       </div>
     </div>
 
+    <!-- Interlinking verso le altre guide -->
     <div style="margin-top: 3rem; background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem;">
       <h3 style="margin-top: 0; font-size: 1.2rem;">🗺️ Continua a Esplorare l'Italia</h3>
       <p style="font-size: 0.9rem; color: #64748b;">Scopri le nostre guide pratiche per le altre destinazioni:</p>
@@ -145,6 +181,7 @@
     </p>
   </footer>
 
+  <!-- GDPR Cookie Banner & Script Analytics Condizionale -->
   <div id="cookie-banner" class="cookie-banner">
     <h4 style="margin: 0 0 0.5rem 0; font-size: 0.95rem;">Informativa Cookie</h4>
     <p style="font-size: 0.85rem; color: #64748b; margin: 0 0 1rem 0;">Utilizziamo cookie di analisi statistica per comprendere l'uso del sito.</p>
@@ -156,6 +193,7 @@
 
   <script>
     const GA_ID = 'G-6BTRRPGHZW';
+
     function loadGA() {
       if (window.gaLoaded) return;
       window.gaLoaded = true;
@@ -168,11 +206,26 @@
       gtag('js', new Date());
       gtag('config', GA_ID);
     }
+
     const consent = localStorage.getItem('sth_cookie_consent');
     const banner = document.getElementById('cookie-banner');
-    if (consent === 'granted') { loadGA(); } else if (!consent) { banner.style.display = 'block'; }
-    document.getElementById('btn-accept').addEventListener('click', () => { localStorage.setItem('sth_cookie_consent', 'granted'); banner.style.display = 'none'; loadGA(); });
-    document.getElementById('btn-reject').addEventListener('click', () => { localStorage.setItem('sth_cookie_consent', 'denied'); banner.style.display = 'none'; });
+
+    if (consent === 'granted') {
+      loadGA();
+    } else if (!consent) {
+      banner.style.display = 'block';
+    }
+
+    document.getElementById('btn-accept').addEventListener('click', () => {
+      localStorage.setItem('sth_cookie_consent', 'granted');
+      banner.style.display = 'none';
+      loadGA();
+    });
+
+    document.getElementById('btn-reject').addEventListener('click', () => {
+      localStorage.setItem('sth_cookie_consent', 'denied');
+      banner.style.display = 'none';
+    });
   </script>
 </body>
 </html>
