@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida Torino: Museo Egizio, Mole, Segreti ed eSIM | SmartTravelHub</title>
-  <meta name="description" content="Pianifica il tuo viaggio a Torino: la Mole Antonelliana, il Museo Egizio, la Venaria Reale e i consigli su depositi bagagli e trasporti.">
+  <title>Guida Torino: Hotel, Museo Egizio, Mole e Segreti | SmartTravelHub</title>
+  <meta name="description" content="Pianifica il tuo soggiorno a Torino: hotel consigliati, la Mole Antonelliana, il Museo Egizio, la Venaria Reale e i depositi bagagli.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/torino.html">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Guida Torino: Museo Egizio, Mole, Segreti ed eSIM">
-  <meta property="og:description" content="Prima capitale d'Italia tra regge sabaude, magia bianca e nera e musei unici al mondo.">
+  <meta property="og:title" content="Guida Torino: Hotel, Museo Egizio, Mole e Segreti">
+  <meta property="og:description" content="Prima capitale d'Italia tra regge sabaude, alloggi di charme, magia e musei unici al mondo.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/torino.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1574868991734-f850e0150f57?auto=format&fit=crop&w=1200&q=80">
 
@@ -31,12 +32,6 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Guide",
-            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "name": "Torino"
           }
         ]
@@ -95,6 +90,15 @@
 
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1574868991734-f850e0150f57?auto=format&fit=crop&w=1200&q=80" alt="Vista della Mole Antonelliana a Torino" loading="lazy">
+
+    <h2>🏨 Dove Dormire a Torino</h2>
+    <p>Le zone migliori per alloggiare sono il <strong>Centro Storico (Piazza Castello e Via Roma)</strong> per spostarsi sempre a piedi tra musei e caffè storici, il <strong>Quadrilatero Romano</strong> per i locali serali e la movida, o la zona adiacente alla stazione di <strong>Porta Nuova</strong> per chi cerca hotel moderni a prezzi vantaggiosi e massima comodità con i mezzi pubblici.</p>
+
+    <div class="box-info">
+      🏨 <strong>Offerte Hotel e Dimore Storiche a Torino:</strong><br>
+      Scopri hotel centrali, B&B di charme e appartamenti eleganti a prezzi scontati.<br>
+      <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="btn-link">Cerca Hotel a Torino su Klook</a>
+    </div>
 
     <h2>🚆 Arrivare a Torino (Porta Nuova / Porta Susa)</h2>
     <p>I treni ad alta velocità arrivano direttamente nelle stazioni centrali di <strong>Torino Porta Nuova</strong> o <strong>Torino Porta Susa</strong>. Confronta i biglietti in anticipo per riservare il tuo posto.</p>
@@ -175,7 +179,11 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;">
+      <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
+      <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Gestione Cookie</a> &bull; 
+      &copy; 2026
+    </p>
     <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
       Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
     </p>
@@ -226,6 +234,11 @@
       localStorage.setItem('sth_cookie_consent', 'denied');
       banner.style.display = 'none';
     });
+
+    function openCookieSettings() {
+      localStorage.removeItem('sth_cookie_consent');
+      banner.style.display = 'block';
+    }
   </script>
 </body>
 </html>
