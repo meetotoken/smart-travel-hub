@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida Catania: Barocco Nero, Etna e Consigli Pratici | SmartTravelHub</title>
-  <meta name="description" content="Pianifica la visita a Catania: Piazza del Duomo, Liotru, escursioni sull'Etna, deposito bagagli e noleggio auto.">
+  <title>Guida Catania: Barocco Nero, Etna, Hotel e Consigli Pratici | SmartTravelHub</title>
+  <meta name="description" content="Pianifica la visita a Catania: hotel consigliati, Piazza del Duomo, Liotru, escursioni sull'Etna, deposito bagagli e noleggio auto.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/catania.html">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Guida Catania: Barocco Nero, Etna e Consigli Pratici">
-  <meta property="og:description" content="La guida pratica per esplorare la perla della Sicilia orientale tra crateri lavici, barocco e mercati storici.">
+  <meta property="og:title" content="Guida Catania: Barocco Nero, Etna, Hotel e Consigli Pratici">
+  <meta property="og:description" content="La guida pratica per esplorare la perla della Sicilia orientale tra crateri lavici, hotel con vista e mercati storici.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/catania.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=80">
 
@@ -31,12 +32,6 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Guide",
-            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "name": "Catania"
           }
         ]
@@ -96,8 +91,17 @@
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=80" alt="Piazza del Duomo ed il Liotru a Catania" loading="lazy">
 
+    <h2>🏨 Dove Dormire a Catania (Hotel e B&B Consigliati)</h2>
+    <p>Per vivere l'atmosfera autentica di Catania, le zone migliori dove alloggiare sono <strong>Via Etnea</strong> per avere tutto a portata di mano, oppure nei pressi di <strong>Piazza Teatro Massimo</strong> per ristoranti e vita serale. Se preferisci la comodità degli spostamenti, le strutture vicine alla stazione offrono ottimi collegamenti per i bus regionali e l'Etna.</p>
+
+    <div class="box-info">
+      🏨 <strong>Offerte Hotel & B&B a Catania:</strong><br>
+      Confronta hotel storici, appartamenti e boutique hotel con cancellazione flessibile.<br>
+      <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="btn-link">Cerca Alloggi a Catania su Klook</a>
+    </div>
+
     <h2>🚆 Arrivare a Catania (Stazione e Aeroporto Fontanarossa)</h2>
-    <p>Se arrivi in aereo a Catania Fontanarossa o in treno a <strong>Catania Centrale</strong>, l'accesso al centro storico è rapido e ben servito.</p>
+    <p>Se arrivi in aereo a Catania Fontanarossa o in treno a <strong>Catania Centrale</strong>, l'accesso al centro storico è rapido e ben servito dal servizio navetta Alibus e dalla metropolitana.</p>
 
     <div class="box-info">
       🚆 <strong>Treni e Biglietti per Catania:</strong><br>
@@ -176,7 +180,11 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;">
+      <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
+      <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Gestione Cookie</a> &bull; 
+      &copy; 2026
+    </p>
     <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
       Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
     </p>
@@ -227,6 +235,11 @@
       localStorage.setItem('sth_cookie_consent', 'denied');
       banner.style.display = 'none';
     });
+
+    function openCookieSettings() {
+      localStorage.removeItem('sth_cookie_consent');
+      banner.style.display = 'block';
+    }
   </script>
 </body>
 </html>
