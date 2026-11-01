@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida Milano: Chicche Storiche, Monumenti e Consigli Pratici | SmartTravelHub</title>
-  <meta name="description" content="Scopri Milano tra arte, moda e segreti storici: il Duomo, le Terrazze, la Vigna di Leonardo e i consigli per muoverti al meglio.">
+  <title>Guida Milano: Hotel, Moda, Terrazze Duomo e Consigli | SmartTravelHub</title>
+  <meta name="description" content="Scopri Milano: hotel consigliati, Duomo, Terrazze, Ultima Cena di Leonardo, depositi bagagli e trasporti smart.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/milano.html">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Guida Milano: Chicche Storiche, Monumenti e Consigli Pratici">
-  <meta property="og:description" content="Organizza la tua visita a Milano tra monumenti iconici, arte, Terrazze del Duomo e mobilità smart.">
+  <meta property="og:title" content="Guida Milano: Hotel, Moda, Terrazze Duomo e Consigli">
+  <meta property="og:description" content="Organizza la tua visita a Milano tra design hotel, arte, Terrazze del Duomo e mobilità smart.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/milano.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80">
 
@@ -31,12 +32,6 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Guide",
-            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "name": "Milano"
           }
         ]
@@ -95,6 +90,15 @@
 
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80" alt="Duomo di Milano e la piazza" loading="lazy">
+
+    <h2>🏨 Dove Dormire a Milano (I Migliori Quartieri)</h2>
+    <p>La zona del <strong>Duomo e Brera</strong> è perfetta per chi vuole muoversi a piedi tra gallerie d'arte e vie dello shopping. Per una serata vivace lungo i canali scegli i <strong>Navigli</strong>, mentre se cerchi un ottimo rapporto qualità-prezzo e collegamenti rapidi con metro e treni per gli aeroporti, l'area intorno alla <strong>Stazione Centrale e Porta Garibaldi</strong> è la soluzione più strategica.</p>
+
+    <div class="box-info">
+      🏨 <strong>Offerte Hotel e Design B&B a Milano:</strong><br>
+      Confronta hotel moderni, boutique hotel e appartamenti con cancellazione flessibile.<br>
+      <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="btn-link">Cerca Hotel a Milano su Klook</a>
+    </div>
 
     <h2>🚆 Spostamenti e Collegamenti a Milano</h2>
     <p>Se viaggi in treno verso <strong>Milano Centrale</strong>, <strong>Garibaldi</strong> o <strong>Cadorna</strong>, o arrivi dagli aeroporti di Malpensa, Linate o Bergamo Orio al Serio, confronta i biglietti in anticipo.</p>
@@ -176,7 +180,11 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;">
+      <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
+      <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Gestione Cookie</a> &bull; 
+      &copy; 2026
+    </p>
     <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
       Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
     </p>
@@ -227,6 +235,11 @@
       localStorage.setItem('sth_cookie_consent', 'denied');
       banner.style.display = 'none';
     });
+
+    function openCookieSettings() {
+      localStorage.removeItem('sth_cookie_consent');
+      banner.style.display = 'block';
+    }
   </script>
 </body>
 </html>
