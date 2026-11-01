@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Pagine Principali -->
   <url>
     <loc>https://meetotoken.github.io/smart-travel-hub/</loc>
     <lastmod>2026-11-01</lastmod>
@@ -18,6 +19,8 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
+  <!-- 10 Guide in Italiano -->
   <url>
     <loc>https://meetotoken.github.io/smart-travel-hub/guide/roma.html</loc>
     <lastmod>2026-11-01</lastmod>
@@ -74,6 +77,68 @@
   </url>
   <url>
     <loc>https://meetotoken.github.io/smart-travel-hub/guide/catania.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 10 Guide in Inglese -->
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/rome.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/florence.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/venice.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/milan.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/naples.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/bologna.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/turin.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/palermo.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/verona.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://meetotoken.github.io/smart-travel-hub/en/guide/catania.html</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
