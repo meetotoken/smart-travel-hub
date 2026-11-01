@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guida Venezia: Canali, Segreti Storici e Consigli Pratici | SmartTravelHub</title>
-  <meta name="description" content="Pianifica la tua visita a Venezia: Basilica di San Marco, Palazzo Ducale, deposito bagagli alla stazione e i migliori pass per i vaporetti.">
+  <title>Guida Venezia: Canali, Hotel, Segreti Storici e Consigli | SmartTravelHub</title>
+  <meta name="description" content="Pianifica la tua visita a Venezia: hotel e alloggi, Basilica di San Marco, Palazzo Ducale, deposito bagagli alla stazione e pass vaporetti.">
   <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/venezia.html">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Guida Venezia: Canali, Segreti Storici e Consigli Pratici">
-  <meta property="og:description" content="La guida essenziale per esplorare la Serenissima muovendoti in totale comodità tra calli e canali.">
+  <meta property="og:title" content="Guida Venezia: Canali, Hotel, Segreti Storici e Consigli">
+  <meta property="og:description" content="La guida essenziale per esplorare la Serenissima: hotel sui canali, vaporetti e calli segrete.">
   <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/venezia.html">
   <meta property="og:image" content="https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1200&q=80">
 
@@ -31,12 +32,6 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Guide",
-            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
             "name": "Venezia"
           }
         ]
@@ -95,6 +90,15 @@
 
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1200&q=80" alt="Canal Grande e Ponte di Rialto a Venezia" loading="lazy">
+
+    <h2>🏨 Dove Alloggiare a Venezia (Laguna o Mestre?)</h2>
+    <p>Dormire nella laguna offre un fascino ineguagliabile: <strong>San Marco</strong> è ideale per un'occasione speciale, <strong>Cannaregio</strong> conserva l'anima autentica ed è comodissimo a piedi dalla stazione, mentre <strong>Dorsoduro</strong> è silenzioso e vicino ai musei d'arte contemporanea. Se vuoi invece risparmiare fino al 50%, considera <strong>Mestre</strong>: i treni frequenti portano a Venezia Santa Lucia in appena 10 minuti a circa 1,50€.</p>
+
+    <div class="box-info">
+      🏨 <strong>Offerte Hotel e Alloggi a Venezia:</strong><br>
+      Trova hotel affacciati sui canali o comode sistemazioni a Mestre alle migliori tariffe.<br>
+      <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="btn-link">Cerca Hotel a Venezia su Klook</a>
+    </div>
 
     <h2>🚆 Arrivare a Venezia Santa Lucia</h2>
     <p>La stazione di <strong>Venezia Santa Lucia</strong> affaccia direttamente sul Canal Grande. Confronta i biglietti dei treni per percorrere il ponte della Libertà e arrivare comodamente in centro senza stress.</p>
@@ -175,7 +179,11 @@
   </main>
 
   <footer>
-    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;">
+      <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
+      <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Gestione Cookie</a> &bull; 
+      &copy; 2026
+    </p>
     <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
       Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
     </p>
@@ -226,6 +234,11 @@
       localStorage.setItem('sth_cookie_consent', 'denied');
       banner.style.display = 'none';
     });
+
+    function openCookieSettings() {
+      localStorage.removeItem('sth_cookie_consent');
+      banner.style.display = 'block';
+    }
   </script>
 </body>
 </html>
