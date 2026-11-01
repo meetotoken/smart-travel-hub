@@ -2,53 +2,102 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-
-  <!-- Google tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BTRRPGHZW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-6BTRRPGHZW');
-  </script>
-
-  <!-- Tag Canonical specifico per Catania -->
-  <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/catania.html">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guida Catania: Barocco Nero, Etna e Consigli Pratici | SmartTravelHub</title>
   <meta name="description" content="Pianifica la visita a Catania: Piazza del Duomo, Liotru, escursioni sull'Etna, deposito bagagli e noleggio auto.">
+  <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/guide/catania.html">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Guida Catania: Barocco Nero, Etna e Consigli Pratici">
+  <meta property="og:description" content="La guida pratica per esplorare la perla della Sicilia orientale tra crateri lavici, barocco e mercati storici.">
+  <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/guide/catania.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://meetotoken.github.io/smart-travel-hub/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide",
+            "item": "https://meetotoken.github.io/smart-travel-hub/#guide"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Catania"
+          }
+        ]
+      },
+      {
+        "@type": "TouristDestination",
+        "name": "Catania",
+        "description": "Guida turistica per visitare Catania, il vulcano Etna e la costa ionica."
+      }
+    ]
+  }
+  </script>
+
   <style>
-    :root { --primary: #0055ff; --primary-hover: #003db3; --bg: #f8f9fa; --card-bg: #ffffff; --text: #212529; }
-    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; color: var(--text); max-width: 900px; margin: 0 auto; padding: 1.5rem; background: var(--bg); }
-    header { border-bottom: 2px solid #e9ecef; padding-bottom: 1.5rem; margin-bottom: 2rem; }
-    header h1 { color: var(--primary); margin-top: 0.5rem; font-size: 2.2rem; }
-    header a { color: var(--primary); text-decoration: none; font-weight: bold; }
-    .hero-img { width: 100%; height: 350px; object-fit: cover; border-radius: 12px; margin-bottom: 2rem; }
-    .content-img { width: 100%; height: 260px; object-fit: cover; border-radius: 8px; margin: 1rem 0; }
-    .box-info { background: #eef4ff; border-left: 5px solid var(--primary); padding: 1.2rem; margin: 1.5rem 0; border-radius: 6px; }
-    .btn-link { display: inline-block; background: var(--primary); color: white; padding: 0.75rem 1.4rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 0.5rem; transition: background 0.2s; }
+    :root { 
+      --primary: #2563eb; 
+      --primary-hover: #1d4ed8; 
+      --bg: #f8fafc; 
+      --card-bg: #ffffff; 
+      --text: #1e293b;
+      --border: #e2e8f0;
+    }
+    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; color: var(--text); max-width: 920px; margin: 0 auto; padding: 1.5rem; background: var(--bg); }
+    header { border-bottom: 2px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.95rem; margin-bottom: 1rem; }
+    .nav-back:hover { text-decoration: underline; }
+    h1 { color: #0f172a; font-size: 2.2rem; font-weight: 800; line-height: 1.25; margin: 0.5rem 0; }
+    .subtitle { color: #64748b; font-size: 1.1rem; }
+    
+    .hero-img { width: 100%; height: 380px; object-fit: cover; border-radius: 14px; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+    .content-img { width: 100%; height: 280px; object-fit: cover; border-radius: 10px; margin: 1.5rem 0; }
+    
+    .box-info { background: #eff6ff; border-left: 5px solid var(--primary); padding: 1.25rem; margin: 1.5rem 0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); }
+    .btn-link { display: inline-block; background: var(--primary); color: white; padding: 0.75rem 1.4rem; border-radius: 8px; text-decoration: none; font-weight: 700; margin-top: 0.75rem; transition: background 0.2s; }
     .btn-link:hover { background: var(--primary-hover); }
-    .grid-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
-    .tool-card { background: white; border: 1px solid #e9ecef; border-radius: 8px; padding: 1.2rem; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.03); }
-    .tool-card h4 { margin-top: 0; color: #004085; }
-    footer { margin-top: 4rem; text-align: center; font-size: 0.9rem; color: #777; border-top: 1px solid #ddd; padding-top: 1.5rem; }
+    
+    .grid-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .tool-card { background: white; border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.03); }
+    .tool-card h4 { margin: 0 0 0.5rem 0; color: #0f172a; font-size: 1.1rem; }
+    
+    .city-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .city-pill { background: white; border: 1px solid var(--border); padding: 0.4rem 0.8rem; border-radius: 20px; text-decoration: none; color: #334155; font-size: 0.85rem; font-weight: 600; transition: all 0.2s; }
+    .city-pill:hover { border-color: var(--primary); color: var(--primary); }
+
+    footer { margin-top: 4rem; text-align: center; font-size: 0.85rem; color: #64748b; border-top: 1px solid var(--border); padding-top: 2rem; }
+    .cookie-banner { position: fixed; bottom: 1rem; right: 1rem; max-width: 380px; background: white; padding: 1.2rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); border: 1px solid var(--border); z-index: 1000; display: none; }
   </style>
 </head>
 <body>
 
   <header>
-    <a href="../index.html">← Torna alla Home di SmartTravelHub</a>
+    <a href="../index.html" class="nav-back">← Torna alla Home di SmartTravelHub</a>
     <h1>Catania: Tra il Barocco di Pietra Lavica ed il Vulcano Etna</h1>
-    <p>La guida pratica per esplorare la perla della Sicilia orientale.</p>
+    <p class="subtitle">La guida pratica per esplorare la perla della Sicilia orientale.</p>
   </header>
 
   <main>
     <img class="hero-img" src="https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=80" alt="Piazza del Duomo ed il Liotru a Catania" loading="lazy">
 
     <h2>🚆 Arrivare a Catania (Stazione e Aeroporto Fontanarossa)</h2>
-    <p>Se arrivi in aereo all'Aeroporto di Catania Fontanarossa o in treno a <strong>Catania Centrale</strong>, l'accesso al centro storico è rapido e ben servito.</p>
+    <p>Se arrivi in aereo a Catania Fontanarossa o in treno a <strong>Catania Centrale</strong>, l'accesso al centro storico è rapido e ben servito.</p>
 
     <div class="box-info">
       🚆 <strong>Treni e Biglietti per Catania:</strong><br>
@@ -57,7 +106,7 @@
     </div>
 
     <h2>🧳 Deposito Bagagli in Centro a Catania</h2>
-    <p>Lascia le valigie nei depositi sicuri vicini alla stazione o a Via Etnea per goderti il centro storico senza intralci.</p>
+    <p>Lascia le valigie nei depositi sicuri vicini alla stazione o a Via Etnea per goderti il centro barocco senza intralci.</p>
 
     <div class="box-info">
       🧳 <strong>Deposito Bagagli a Catania:</strong><br>
@@ -75,39 +124,109 @@
 
     <h2>📜 Curiosità e Leggende Catanesi</h2>
     <ul>
-      <li><strong>Il Liotru (L'Elefante di Pietra Lavica):</strong> Simbolo della città situato in Piazza del Duomo, legato al mago Eliodoro che secondo la leggenda usava l'elefante scolpito nella lava per spostarsi magicamente fino a Costantinopoli.</li>
-      <li><strong>Il Fiume Amenano ed la Fontana dell'Acqua o' Lenzuoli:</strong> Il fiume sotterraneo Amenano riaffiora sotto la fontana in Piazza del Duomo formando una cascata trasparente come un lenzuolo.</li>
-      <li><strong>San Berillo:</strong> Un quartiere storico riqualificato con installazioni artistiche, murales e piante in vicoli suggestivi.</li>
+      <li><strong>Il Liotru (L'Elefante di Pietra Lavica):</strong> Simbolo di Catania in Piazza del Duomo, legato al mago Eliodoro che secondo la leggenda si spostava magicamente su di esso.</li>
+      <li><strong>Il Fiume Amenano ed il Lenzuolo d'Acqua:</strong> Il fiume sotterraneo riaffiora sotto la fontana del Duomo formando una suggestiva cascata trasparente.</li>
+      <li><strong>San Berillo:</strong> Quartiere storico riqualificato con installazioni d'arte contemporanea, murales e scorci pittoreschi.</li>
     </ul>
 
     <h2>🌐 Mobilità e Connettività</h2>
     <ul>
-      <li>📱 <strong>eSIM Dati:</strong> Mantieni internet attivo per il GPS con l'eSIM di <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored">Airalo</a> o l'opzione dati di <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored">Yesim</a>.</li>
-      <li>🚗 <strong>Noleggio Auto per Taormina e Siracusa:</strong> Per raggiungere Taormina, le Gole dell'Alcantara o Noto, compara i prezzi su <a href="https://autoeurope.tpx.gr/TP3VldE6" target="_blank" rel="noopener sponsored">Auto Europe</a>.</li>
+      <li>📱 <strong>eSIM Dati:</strong> Mantieni internet attivo per mappe e bus con l'eSIM di <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored">Airalo</a> o i dati illimitati di <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored">Yesim</a>.</li>
+      <li>🚗 <strong>Noleggio Auto per Taormina e Siracusa:</strong> Per raggiungere Taormina, le Gole dell'Alcantara o Noto, confronta i prezzi su <a href="https://autoeurope.tpx.gr/TP3VldE6" target="_blank" rel="noopener sponsored">Auto Europe</a>.</li>
       <li>🛵 <strong>Noleggio Scooter:</strong> Noleggia uno scooter con <a href="https://bikesbooking.tpx.gr/bPqW91PG" target="_blank" rel="noopener sponsored">BikesBooking</a>.</li>
     </ul>
 
-    <hr style="margin-top: 3rem; border: 0; border-top: 1px solid #eee;">
-    <h3 style="text-align: center;">🛠️ Tutti gli Strumenti Utili per Catania</h3>
+    <hr style="margin-top: 3rem; border: 0; border-top: 1px solid var(--border);">
+    
+    <h3 style="text-align: center;">🛠️ Strumenti Consigliati per Catania</h3>
     <div class="grid-tools">
       <div class="tool-card">
-        <h4>🏛️ Pass Turistici</h4>
-        <a href="https://gocity.tpx.gr/mEFdKLO8" target="_blank" rel="noopener sponsored" class="btn-link">GoCity Pass</a>
+        <h4>🚕 Transfer Fontanarossa</h4>
+        <p style="font-size: 0.9rem; color: #64748b;">Dall'aeroporto direttamente in hotel</p>
+        <a href="https://kiwitaxi.tpx.gr/lztFNvIh" target="_blank" rel="noopener sponsored" class="btn-link">Prenota KiwiTaxi</a>
       </div>
       <div class="tool-card">
         <h4>🎧 Audioguide</h4>
-        <a href="https://wegotrip.tpx.gr/IT3NT6uL" target="_blank" rel="noopener sponsored" class="btn-link">WeGoTrip</a>
+        <p style="font-size: 0.9rem; color: #64748b;">Tour interattivi per lo smartphone</p>
+        <a href="https://wegotrip.tpx.gr/IT3NT6uL" target="_blank" rel="noopener sponsored" class="btn-link">Audioguide WeGoTrip</a>
       </div>
       <div class="tool-card">
         <h4>✈️ Volo in Ritardo?</h4>
-        <a href="https://airhelp.tpx.gr/8Ut5MUAB" target="_blank" rel="noopener sponsored" class="btn-link">Rimborso AirHelp</a>
+        <p style="font-size: 0.9rem; color: #64748b;">Richiedi risarcimento fino a 600€</p>
+        <a href="https://airhelp.tpx.gr/8Ut5MUAB" target="_blank" rel="noopener sponsored" class="btn-link">Verifica con AirHelp</a>
+      </div>
+    </div>
+
+    <!-- Interlinking verso le altre guide -->
+    <div style="margin-top: 3rem; background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem;">
+      <h3 style="margin-top: 0; font-size: 1.2rem;">🗺️ Continua a Esplorare l'Italia</h3>
+      <p style="font-size: 0.9rem; color: #64748b;">Scopri le nostre guide pratiche per le altre destinazioni:</p>
+      <div class="city-pills">
+        <a href="roma.html" class="city-pill">Roma</a>
+        <a href="milano.html" class="city-pill">Milano</a>
+        <a href="firenze.html" class="city-pill">Firenze</a>
+        <a href="venezia.html" class="city-pill">Venezia</a>
+        <a href="napoli.html" class="city-pill">Napoli</a>
+        <a href="bologna.html" class="city-pill">Bologna</a>
+        <a href="torino.html" class="city-pill">Torino</a>
+        <a href="palermo.html" class="city-pill">Palermo</a>
+        <a href="verona.html" class="city-pill">Verona</a>
       </div>
     </div>
   </main>
 
   <footer>
-    <p><a href="../index.html">SmartTravelHub Home</a> | &copy; 2026</p>
+    <p style="margin-bottom: 0.5rem;"><a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; &copy; 2026</p>
+    <p style="font-size: 0.8rem; color: #94a3b8; max-width: 600px; margin: 0 auto;">
+      Trasparenza: Alcuni link presenti in questa pagina sono link di affiliazione. Acquistando un servizio tramite essi, potremmo ricevere una commissione senza costi aggiuntivi per te.
+    </p>
   </footer>
 
+  <!-- GDPR Cookie Banner & Script Analytics Condizionale -->
+  <div id="cookie-banner" class="cookie-banner">
+    <h4 style="margin: 0 0 0.5rem 0; font-size: 0.95rem;">Informativa Cookie</h4>
+    <p style="font-size: 0.85rem; color: #64748b; margin: 0 0 1rem 0;">Utilizziamo cookie di analisi statistica per comprendere l'uso del sito.</p>
+    <div style="display: flex; gap: 0.5rem;">
+      <button id="btn-accept" style="background: var(--primary); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 0.8rem;">Accetta</button>
+      <button id="btn-reject" style="background: #e2e8f0; color: #334155; border: none; padding: 0.4rem 0.8rem; border-radius: 6px; cursor: pointer; font-size: 0.8rem;">Rifiuta</button>
+    </div>
+  </div>
+
+  <script>
+    const GA_ID = 'G-6BTRRPGHZW';
+
+    function loadGA() {
+      if (window.gaLoaded) return;
+      window.gaLoaded = true;
+      const s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', GA_ID);
+    }
+
+    const consent = localStorage.getItem('sth_cookie_consent');
+    const banner = document.getElementById('cookie-banner');
+
+    if (consent === 'granted') {
+      loadGA();
+    } else if (!consent) {
+      banner.style.display = 'block';
+    }
+
+    document.getElementById('btn-accept').addEventListener('click', () => {
+      localStorage.setItem('sth_cookie_consent', 'granted');
+      banner.style.display = 'none';
+      loadGA();
+    });
+
+    document.getElementById('btn-reject').addEventListener('click', () => {
+      localStorage.setItem('sth_cookie_consent', 'denied');
+      banner.style.display = 'none';
+    });
+  </script>
 </body>
 </html>
