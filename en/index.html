@@ -119,7 +119,7 @@
                 Plan Your Trip to Italy Stress-Free
             </h1>
             <p class="text-base md:text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-                Get high-speed data with eSIMs, book fast trains, reserve airport pickups, and drop heavy bags securely with certified tools.
+                Compare budget flights, find central stays, get high-speed data with eSIMs, book trains and store luggage safely across Italy.
             </p>
             <div class="flex flex-wrap justify-center gap-3">
                 <a href="#services" class="bg-white text-blue-600 font-bold px-6 py-3 rounded-lg shadow hover:bg-blue-50 transition">
@@ -132,85 +132,78 @@
         </div>
     </section>
 
-    <!-- Category Filter Buttons -->
+    <!-- Filter Buttons (Tutti e 5 i filtri come in italiano) -->
     <div class="max-w-6xl mx-auto px-4 pt-10">
         <div class="flex flex-wrap items-center justify-center gap-2">
             <button class="filter-btn active bg-blue-600 text-white px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="all">All Tools</button>
-            <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="connettivita">eSIM & Internet</button>
-            <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="trasporti">Trains & Transfers</button>
+            <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="trasporti">Flights & Transit</button>
             <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="alloggi">Hotels & Stays</button>
-            <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="servizi">Luggage & Extras</button>
+            <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="connettivita">eSIM & Internet</button>
+            <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="servizi">Extras & Luggage</button>
         </div>
     </div>
 
-    <!-- Main Services Grid -->
+    <!-- Main Services Grid (Tutti i 13 servizi identici alla versione italiana) -->
     <main id="services" class="max-w-6xl mx-auto px-4 py-8 flex-grow">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             
-            <!-- 1. eSIM Airalo (Top for Tourists) -->
+            <!-- 1. Cheap Flights Aviasales -->
+            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="trasporti">
+                <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
+                    Most Popular
+                </span>
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-plane"></i></div>
+                    <h3 class="font-bold text-xl mb-1 text-slate-900">Cheap Flights</h3>
+                    <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-bolt"></i> Real-time live airfare comparison</p>
+                    <p class="text-sm text-slate-600 mb-4">Compare over 700 airlines on Aviasales to find the lowest airfares to Italy with zero hidden fees.</p>
+                </div>
+                <a href="https://aviasales.tpx.gr/Nde5oFmC" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Search Cheap Flights</a>
+            </div>
+
+            <!-- 2. Hotels & Stays Klook -->
+            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="alloggi">
+                <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
+                    Best Price
+                </span>
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-hotel"></i></div>
+                    <h3 class="font-bold text-xl mb-1 text-slate-900">Hotels & Stays</h3>
+                    <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-check"></i> Flexible cancellation & best rates</p>
+                    <p class="text-sm text-slate-600 mb-4">Find boutique hotels, historic B&Bs, and vacation apartments in the best locations with Klook.</p>
+                </div>
+                <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Search Hotels & B&Bs</a>
+            </div>
+
+            <!-- 3. Italy eSIM Airalo -->
             <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="connettivita">
                 <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
-                    Essential for Italy
+                    Essential for Tourists
                 </span>
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-sim-card"></i></div>
                     <h3 class="font-bold text-xl mb-1 text-slate-900">Italy eSIM (Airalo)</h3>
                     <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-check"></i> Zero international roaming fees</p>
-                    <p class="text-sm text-slate-600 mb-4">Install an instant digital SIM on your phone and stay connected across Italy and Europe the moment you land.</p>
+                    <p class="text-sm text-slate-600 mb-4">Install a digital SIM on your phone in minutes and connect to high-speed data across Italy the moment you arrive.</p>
                 </div>
                 <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Get Italy eSIM</a>
             </div>
 
-            <!-- 2. High Speed Trains (Klook) -->
-            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="trasporti">
-                <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
-                    Best for Sightseeing
-                </span>
-                <div>
-                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-train"></i></div>
-                    <h3 class="font-bold text-xl mb-1 text-slate-900">Italian High-Speed Trains</h3>
-                    <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-bolt"></i> Frecciarossa & Italo high-speed</p>
-                    <p class="text-sm text-slate-600 mb-4">Travel between Rome, Florence, Venice, and Milan in under 2-3 hours. Book tickets easily with seat reservations.</p>
-                </div>
-                <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Book Train Tickets</a>
-            </div>
-
-            <!-- 3. Luggage Storage Radical Storage -->
-            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="servizi">
+            <!-- 4. Luggage Storage Radical Storage -->
+            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-lg transition" data-category="servizi">
                 <span class="absolute -top-3 right-4 bg-emerald-600 text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
-                    Hands-Free Travel
+                    Safe & Convenient
                 </span>
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-suitcase"></i></div>
                     <h3 class="font-bold text-xl mb-1 text-slate-900">Luggage Storage</h3>
                     <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-lock"></i> Verified storage from 5€/day</p>
-                    <p class="text-sm text-slate-600 mb-4">Leave heavy bags at verified hotels and shops right next to central stations and top monuments.</p>
+                    <p class="text-sm text-slate-600 mb-4">Explore hands-free by storing your bags at verified hotels and shops near stations and monuments.</p>
                 </div>
-                <a href="https://radicalstorage.tpx.gr/XR76jrDS" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Find Bag Storage</a>
+                <a href="https://radicalstorage.tpx.gr/XR76jrDS" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Find Bag Storage</a>
             </div>
 
-            <!-- 4. Hotels & Stays -->
-            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="alloggi">
-                <div>
-                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-hotel"></i></div>
-                    <h3 class="font-bold text-xl mb-1 text-slate-900">Hotels & Boutique Stays</h3>
-                    <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-check"></i> Flexible cancellation options</p>
-                    <p class="text-sm text-slate-600 mb-4">Discover boutique hotels, historic B&Bs, and central apartments across Italy at discounted rates.</p>
-                </div>
-                <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Search Hotels & B&Bs</a>
-            </div>
-
-            <!-- 5. Airport Transfers KiwiTaxi -->
-            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
-                <div>
-                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-taxi"></i></div>
-                    <h3 class="font-bold text-xl mb-2 text-slate-900">Airport Private Transfers</h3>
-                    <p class="text-sm text-slate-600 mb-4">English-speaking drivers waiting at the arrivals gate in Fiumicino, Malpensa, and Marco Polo directly to your hotel.</p>
-                </div>
-                <a href="https://kiwitaxi.tpx.gr/lztFNvIh" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Book Airport Transfer</a>
-            </div>
-
-            <!-- 6. Unlimited Data eSIM Yesim -->
+            <!-- 5. Unlimited Data eSIM Yesim -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="connettivita">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-wifi"></i></div>
@@ -220,55 +213,272 @@
                 <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Explore Yesim Plans</a>
             </div>
 
-            <!-- 7. Cheap Flights Aviasales -->
+            <!-- 6. High-Speed Trains Klook -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
-                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-plane"></i></div>
-                    <h3 class="font-bold text-xl mb-2 text-slate-900">Flight Search (Aviasales)</h3>
-                    <p class="text-sm text-slate-600 mb-4">Compare over 700 airlines to find the lowest airfares to and within Italy with no hidden booking fees.</p>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-train"></i></div>
+                    <h3 class="font-bold text-xl mb-2 text-slate-900">Trains & Regional Buses</h3>
+                    <p class="text-sm text-slate-600 mb-4">Book high-speed Frecciarossa and Italo tickets between Rome, Florence, Venice, and Milan with seat reservations.</p>
                 </div>
-                <a href="https://aviasales.tpx.gr/Nde5oFmC" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Search Cheap Flights</a>
+                <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Book Train Tickets</a>
             </div>
 
-            <!-- 8. Skip-the-Line Museum Tickets (KKday) -->
-            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="servizi">
+            <!-- 7. Airport Transfers KiwiTaxi -->
+            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
-                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-ticket"></i></div>
-                    <h3 class="font-bold text-xl mb-2 text-slate-900">Tours & Museum Passes</h3>
-                    <p class="text-sm text-slate-600 mb-4">Skip the 2-hour lines at the Colosseum, Vatican Museums, and Uffizi Gallery with verified mobile vouchers.</p>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-taxi"></i></div>
+                    <h3 class="font-bold text-xl mb-2 text-slate-900">Airport Private Transfers</h3>
+                    <p class="text-sm text-slate-600 mb-4">Professional drivers waiting for you at the airport arrivals gate directly to your hotel door.</p>
                 </div>
-                <a href="https://kkday.tpx.gr/k08GceNY" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Get Skip-the-Line Passes</a>
+                <a href="https://kiwitaxi.tpx.gr/lztFNvIh" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Book Airport Transfer</a>
             </div>
 
-            <!-- 9. Car Rental QEEQ -->
+            <!-- 8. Car Rental QEEQ -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-car"></i></div>
                     <h3 class="font-bold text-xl mb-2 text-slate-900">Car Rental (QEEQ)</h3>
-                    <p class="text-sm text-slate-600 mb-4">Compare leading rental agencies in Italy with flexible cancellation for road trips across Tuscany and the Amalfi Coast.</p>
+                    <p class="text-sm text-slate-600 mb-4">Compare major international car rental brands across Italy with flexible cancellation and discounts.</p>
                 </div>
                 <a href="https://qeeq.tpx.gr/Rjp9AwGK" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Compare Car Rentals</a>
             </div>
 
-            <!-- 10. Flight Delay Compensation (AirHelp) -->
+            <!-- 9. Local Cars GetRentACar (Aggiunto per parità 1:1 con l'italiano) -->
+            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-key"></i></div>
+                    <h3 class="font-bold text-xl mb-2 text-slate-900">Local Cars (GetRentACar)</h3>
+                    <p class="text-sm text-slate-600 mb-4">Rent cars and vans directly from local verified owners across Italian regions at transparent rates.</p>
+                </div>
+                <a href="https://getrentacar.tpx.gr/ycgAFAUT" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Find Local Car</a>
+            </div>
+
+            <!-- 10. Flight Delay Compensation AirHelp -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="servizi">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h3 class="font-bold text-xl mb-2 text-slate-900">Delayed Flight? (AirHelp)</h3>
-                    <p class="text-sm text-slate-600 mb-4">Was your flight to Europe delayed or canceled? EU law entitles you to up to €600 ($650) in compensation.</p>
+                    <h3 class="font-bold text-xl mb-2 text-slate-900">Flight Compensation</h3>
+                    <p class="text-sm text-slate-600 mb-4">Flight delayed over 3 hours or canceled? Claim up to €600 ($650) in legal compensation with AirHelp.</p>
                 </div>
                 <a href="https://airhelp.tpx.gr/8Ut5MUAB" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Check Compensation</a>
             </div>
 
-            <!-- 11. Scooter & Bike Rentals -->
+            <!-- 11. Tours & Attractions KKday -->
+            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="servizi">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-ticket"></i></div>
+                    <h3 class="font-bold text-xl mb-2 text-slate-900">Tours & Museum Passes</h3>
+                    <p class="text-sm text-slate-600 mb-4">Skip the lines at the Colosseum, Vatican Museums, and Uffizi Gallery with instant mobile vouchers.</p>
+                </div>
+                <a href="https://kkday.tpx.gr/k08GceNY" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Get Skip-the-Line Passes</a>
+            </div>
+
+            <!-- 12. Moto & Bikes BikesBooking -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-motorcycle"></i></div>
                     <h3 class="font-bold text-xl mb-2 text-slate-900">Scooter & Bike Rental</h3>
-                    <p class="text-sm text-slate-600 mb-4">Rent a Vespa or electric bike to zip through historic centers and coastal roads with BikesBooking.</p>
+                    <p class="text-sm text-slate-600 mb-4">Rent a Vespa or e-bike to cruise through ancient streets and scenic coastal roads with BikesBooking.</p>
                 </div>
                 <a href="https://bikesbooking.tpx.gr/bPqW91PG" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Rent a Vespa or Bike</a>
             </div>
 
-            <!-- 12. Digital Audio Guides (WeGoTrip) -->
-            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate
+            <!-- 13. Digital Audio Guides WeGoTrip -->
+            <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="servizi">
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-headphones"></i></div>
+                    <h3 class="font-bold text-xl mb-2 text-slate-900">Digital Audio Tours</h3>
+                    <p class="text-sm text-slate-600 mb-4">Self-guided walking tours on your phone created by certified local historians on WeGoTrip.</p>
+                </div>
+                <a href="https://wegotrip.tpx.gr/IT3NT6uL" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Listen to Audio Guides</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- City Guides Section (Tutte le 10 città collegate alle guide inglesi dove già pronte) -->
+    <section id="guides" class="bg-slate-100 py-14 px-4 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl md:text-3xl font-black text-slate-900">Italy City Guides & Travel Tips</h2>
+                <p class="text-slate-600 text-sm mt-1">Practical transport tips, verified luggage storage, and neighborhood advice.</p>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
+                <!-- Città in inglese già create -->
+                <a href="guide/rome.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Rome
+                </a>
+                <a href="guide/florence.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Florence
+                </a>
+                
+                <!-- Le altre città (collegate alle rispettive guide) -->
+                <a href="../guide/milano.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Milan
+                </a>
+                <a href="../guide/venezia.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Venice
+                </a>
+                <a href="../guide/napoli.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Naples
+                </a>
+                <a href="../guide/bologna.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Bologna
+                </a>
+                <a href="../guide/torino.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Turin
+                </a>
+                <a href="../guide/palermo.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Palermo
+                </a>
+                <a href="../guide/verona.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Verona
+                </a>
+                <a href="../guide/catania.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
+                    <i class="fa-solid fa-location-dot text-red-500"></i> Catania
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section in English -->
+    <section id="faq" class="max-w-4xl mx-auto px-4 py-14">
+        <h2 class="text-2xl md:text-3xl font-black text-center text-slate-900 mb-8">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+            <details class="bg-white p-5 rounded-xl border border-slate-200 cursor-pointer">
+                <summary class="font-bold text-slate-800">What is an eSIM and how do I activate it for Italy?</summary>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">An eSIM is a digital SIM profile already embedded in modern smartphones. Just scan the QR code provided by Airalo or Yesim to connect to high-speed Italian mobile 4G/5G networks immediately upon landing, completely avoiding roaming fees.</p>
+            </details>
+            <details class="bg-white p-5 rounded-xl border border-slate-200 cursor-pointer">
+                <summary class="font-bold text-slate-800">Are luggage storage locations in Italy safe and insured?</summary>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">Yes. Storage points partnered with Radical Storage are verified local businesses (hotels, cafes, shops) that include security seals and insurance up to €3,000 per bag.</p>
+            </details>
+            <details class="bg-white p-5 rounded-xl border border-slate-200 cursor-pointer">
+                <summary class="font-bold text-slate-800">Do prices booked through SmartTravelHub include extra fees?</summary>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">No. You are redirected directly to the official platform partners with the best guaranteed live rates and discounts.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- Partner Referral Section -->
+    <section class="bg-slate-100 py-10 px-4 text-center border-t border-slate-200">
+        <div class="max-w-xl mx-auto">
+            <h3 class="text-lg font-bold mb-1 text-slate-900">Are you a travel blogger or creator?</h3>
+            <p class="text-xs text-slate-600 mb-4">Monetize your travel audience by joining the Travelpayouts partnership network.</p>
+            <a href="https://www.travelpayouts.com/?marker=793698" target="_blank" rel="noopener sponsored" class="inline-block bg-white border border-slate-300 text-slate-700 hover:border-blue-600 hover:text-blue-600 px-4 py-2 rounded-lg font-semibold transition text-xs">
+                Join Travelpayouts <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-xs border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center space-y-3">
+            <div class="flex justify-center gap-4 text-slate-300 font-medium flex-wrap">
+                <a href="#services" class="hover:underline">Services</a>
+                <a href="#guides" class="hover:underline">Guides</a>
+                <a href="#faq" class="hover:underline">FAQ</a>
+                <a href="../privacy.html" class="hover:underline">Privacy & Cookies</a>
+                <a href="#" onclick="openCookieSettings(); return false;" class="hover:underline">Cookie Settings</a>
+            </div>
+            <p class="text-slate-500 max-w-2xl mx-auto">
+                <strong>Affiliate Transparency:</strong> Some links on SmartTravelHub are affiliate links. If you book through them, we may earn a small referral commission at no additional cost to you.
+            </p>
+            <p>&copy; 2026 SmartTravelHub. Non-commercial personal travel project.</p>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-md bg-white p-5 rounded-2xl shadow-2xl border border-slate-200 z-50 hidden">
+        <div class="flex items-start gap-3">
+            <div class="text-blue-600 text-xl mt-0.5"><i class="fa-solid fa-cookie-bite"></i></div>
+            <div>
+                <h4 class="font-bold text-slate-900 text-sm mb-1">We respect your privacy</h4>
+                <p class="text-xs text-slate-600 mb-3">
+                    We use anonymous statistical cookies (Google Analytics) to understand which travel guides are most helpful. Read our <a href="../privacy.html" class="text-blue-600 underline">Privacy Policy</a>.
+                </p>
+                <div class="flex gap-2">
+                    <button id="cookie-accept" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold py-1.5 px-3 rounded-lg transition">Accept</button>
+                    <button id="cookie-reject" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold py-1.5 px-3 rounded-lg transition">Necessary only</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script for Filters, Mobile Menu & Analytics -->
+    <script>
+      const menuBtn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      document.querySelectorAll('.mobile-link').forEach(link => {
+        link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+      });
+
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.service-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => {
+            b.classList.remove('bg-blue-600', 'text-white', 'active');
+            b.classList.add('bg-slate-200', 'text-slate-700');
+          });
+          btn.classList.add('bg-blue-600', 'text-white', 'active');
+          btn.classList.remove('bg-slate-200', 'text-slate-700');
+
+          const category = btn.getAttribute('data-category');
+          cards.forEach(card => {
+            if (category === 'all' || card.getAttribute('data-category') === category) {
+              card.classList.remove('hidden');
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      const GA_ID = 'G-6BTRRPGHZW';
+
+      function loadAnalytics() {
+        if (window.gaLoaded) return;
+        window.gaLoaded = true;
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', GA_ID);
+      }
+
+      const banner = document.getElementById('cookie-banner');
+      const consent = localStorage.getItem('sth_cookie_consent');
+
+      if (!consent) {
+        banner.classList.remove('hidden');
+      } else if (consent === 'granted') {
+        loadAnalytics();
+      }
+
+      document.getElementById('cookie-accept').addEventListener('click', () => {
+        localStorage.setItem('sth_cookie_consent', 'granted');
+        banner.classList.add('hidden');
+        loadAnalytics();
+      });
+
+      document.getElementById('cookie-reject').addEventListener('click', () => {
+        localStorage.setItem('sth_cookie_consent', 'denied');
+        banner.classList.add('hidden');
+      });
+
+      function openCookieSettings() {
+        localStorage.removeItem('sth_cookie_consent');
+        banner.classList.remove('hidden');
+      }
+    </script>
+</body>
+</html>
