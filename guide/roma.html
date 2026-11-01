@@ -6,16 +6,29 @@
   <title>Guida Roma: Chicche Storiche, Monumenti e Consigli Pratici | SmartTravelHub</title>
   <meta name="description" content="Scopri Roma tra monumenti iconici, segreti storici poco conosciuti e consigli utili su come muoverti, prenotare tour ed evitare le code.">
   <style>
-    :root { --primary: #0055ff; --primary-hover: #003db3; --bg: #f8f9fa; --card-bg: #ffffff; }
-    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; color: #333; max-width: 900px; margin: 0 auto; padding: 1.5rem; background: var(--bg); }
+    :root { 
+      --primary: #0055ff; 
+      --primary-hover: #003db3; 
+      --bg: #f8f9fa; 
+      --card-bg: #ffffff; 
+      --text: #212529;
+    }
+    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; color: var(--text); max-width: 900px; margin: 0 auto; padding: 1.5rem; background: var(--bg); }
     header { border-bottom: 2px solid #e9ecef; padding-bottom: 1.5rem; margin-bottom: 2rem; }
-    header h1 { color: var(--primary); margin-top: 0.5rem; }
+    header h1 { color: var(--primary); margin-top: 0.5rem; font-size: 2.2rem; }
     header a { color: var(--primary); text-decoration: none; font-weight: bold; }
+    
+    .hero-img { width: 100%; height: 350px; object-fit: cover; border-radius: 12px; margin-bottom: 2rem; }
+    .content-img { width: 100%; height: 260px; object-fit: cover; border-radius: 8px; margin: 1rem 0; }
+    
     .box-info { background: #eef4ff; border-left: 5px solid var(--primary); padding: 1.2rem; margin: 1.5rem 0; border-radius: 6px; }
-    .btn-link { display: inline-block; background: var(--primary); color: white; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: bold; margin-top: 0.5rem; }
+    .btn-link { display: inline-block; background: var(--primary); color: white; padding: 0.75rem 1.4rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 0.5rem; transition: background 0.2s; }
     .btn-link:hover { background: var(--primary-hover); }
+    
     .grid-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
-    .tool-card { background: white; border: 1px solid #e9ecef; border-radius: 8px; padding: 1rem; text-align: center; }
+    .tool-card { background: white; border: 1px solid #e9ecef; border-radius: 8px; padding: 1.2rem; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.03); }
+    .tool-card h4 { margin-top: 0; color: #004085; }
+    
     footer { margin-top: 4rem; text-align: center; font-size: 0.9rem; color: #777; border-top: 1px solid #ddd; padding-top: 1.5rem; }
   </style>
 </head>
@@ -28,8 +41,11 @@
   </header>
 
   <main>
+    <!-- Immagine di Copertina -->
+    <img class="hero-img" src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80" alt="Vista panoramica di Roma e Colosseo" loading="lazy">
+
     <h2>🚆 Come Arrivare e Muoversi a Roma</h2>
-    <p>Se viaggi in treno verso Roma Termini o Roma Tiburtina, o se cerchi un volo per Fiumicino/Ciampino, confronta sempre le tariffe in anticipo per accaparrarti i posti migliori.</p>
+    <p>Se viaggi in treno verso Roma Termini o Roma Tiburtina, o cerchi un volo per gli aeroporti di Fiumicino e Ciampino, confronta sempre le tariffe in anticipo per prenotare i posti migliori al minor costo.</p>
 
     <div class="box-info">
       🚆 <strong>Treni e Biglietti di Viaggio:</strong><br>
@@ -38,7 +54,7 @@
     </div>
 
     <h2>🧳 Dove Lasciare i Bagagli all'Arrivo</h2>
-    <p>Girare tra i sampietrini del centro con le valigie prima del check-in in hotel è un incubo. Puoi lasciare i tuoi bagagli in negozi e hotel verificati vicino a Termini o al Colosseo a pochi euro al giorno.</p>
+    <p>Girare tra i sampietrini del centro storico con i trolley prima del check-in in hotel può rovinare la prima giornata. Puoi lasciare i tuoi bagagli in depositi e hotel verificati vicino a Termini o al Colosseo a pochi euro al giorno.</p>
 
     <div class="box-info">
       🧳 <strong>Deposito Bagagli Sicuro:</strong><br>
@@ -46,7 +62,8 @@
     </div>
 
     <h2>🏛️ Monumenti Imperdibili & Tour</h2>
-    <p>Il <strong>Colosseo</strong>, i <strong>Musei Vaticani</strong> e la <strong>Galleria Borghese</strong> richiedono quasi sempre la prenotazione anticipata per evitare file di ore.</p>
+    <img class="content-img" src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=900&q=80" alt="Vaticano e Basilica di San Pietro" loading="lazy">
+    <p>Il <strong>Colosseo</strong>, i <strong>Musei Vaticani</strong> e la <strong>Galleria Borghese</strong> registrano sempre il tutto esaurito con giorni di anticipo. La prenotazione salta-fila è caldamente consigliata per evitare attese sfinite sotto il sole.</p>
 
     <div class="box-info">
       🎟️ <strong>Biglietti Salta-Fila & Attrazioni:</strong><br>
@@ -55,18 +72,18 @@
 
     <h2>📜 Chicche e Curiosità Storiche Poco Conosciute</h2>
     <ul>
-      <li><strong>Il buco della serratura dell'Aventino:</strong> Dalla serratura del Priorato dei Cavalieri di Malta si vede la Cupola di San Pietro incorniciata dalle siepi.</li>
-      <li><strong>L'illusione di Via Piccolomini:</strong> Man mano che ti avvicini alla cupola lungo la via, essa sembra allontanarsi anziché ingrandirsi.</li>
-      <li><strong>La falsa cupola di Sant'Ignazio:</strong> Entra nella Chiesa di Sant'Ignazio e alza lo sguardo: la cupola è in realtà un dipinto prospettico su tela piana!</li>
+      <li><strong>Il buco della serratura dell'Aventino:</strong> Dalla serratura del portone del Priorato dei Cavalieri di Malta è possibile ammirare la Cupola di San Pietro perfettamente incorniciata dalle siepi dei giardini.</li>
+      <li><strong>L'illusione ottica di Via Piccolomini:</strong> Percorrendo questa via verso la basilica, la cupola sembra rimpicciolirsi ed allontanarsi anziché ingrandirsi.</li>
+      <li><strong>La falsa cupola di Sant'Ignazio:</strong> Entra nella Chiesa di Sant'Ignazio e alza lo sguardo: la cupola non esiste, si tratta di un affresco prospettico realizzato su tela piana dal maestro Andrea Pozzo!</li>
     </ul>
 
-    <h2>🌐 Connettività e Mezzi di Trasporto</h2>
-    <p>Se arrivi da fuori dall'UE o vuoi muoverti in autonomia nei dintorni di Roma (es. Castelli Romani o Tivoli):</p>
+    <h2>🌐 Connettività e Mezzi di Trasporto Locali</h2>
+    <p>Se desideri muoverti in totale autonomia anche fuori dal centro storico (es. Castelli Romani, Ostia Antica o Tivoli):</p>
     
     <ul>
-      <li>📱 <strong>Internet per i viaggiatori:</strong> Mantieni i dati attivi con l'eSIM di <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="nofollow noopener">Airalo</a> o l'opzione dati illimitati di <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="nofollow noopener">Yesim</a>.</li>
-      <li>🚗 <strong>Noleggio Auto:</strong> Se vuoi esplorare il Lazio, confronta le auto su <a href="https://autoeurope.tpx.gr/TP3VldE6" target="_blank" rel="nofollow noopener">Auto Europe</a>.</li>
-      <li>🛵 <strong>Scooter e Bici:</strong> Per vivere la città come un romano, noleggia uno scooter su <a href="https://bikesbooking.tpx.gr/bPqW91PG" target="_blank" rel="nofollow noopener">BikesBooking</a>.</li>
+      <li>📱 <strong>eSIM e Dati Internet:</strong> Mantieni la connessione attiva con le eSIM di <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="nofollow noopener">Airalo</a> o l'opzione dati illimitati di <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="nofollow noopener">Yesim</a>.</li>
+      <li>🚗 <strong>Noleggio Auto:</strong> Per spostamenti regionali senza vincoli, confronta le auto su <a href="https://autoeurope.tpx.gr/TP3VldE6" target="_blank" rel="nofollow noopener">Auto Europe</a>.</li>
+      <li>🛵 <strong>Scooter e Bici:</strong> Noleggia uno scooter su <a href="https://bikesbooking.tpx.gr/bPqW91PG" target="_blank" rel="nofollow noopener">BikesBooking</a> per muoverti agilmente nel traffico romano.</li>
     </ul>
 
     <!-- BOX TUTTI GLI STRUMENTI PER ROMA -->
@@ -75,14 +92,17 @@
     <div class="grid-tools">
       <div class="tool-card">
         <h4>🏛️ Pass Turistici</h4>
+        <p>Risparmia sui musei romani</p>
         <a href="https://gocity.tpx.gr/mEFdKLO8" target="_blank" rel="nofollow noopener" class="btn-link">GoCity Pass</a>
       </div>
       <div class="tool-card">
         <h4>🎧 Audioguide</h4>
+        <p>Tour audio sullo smartphone</p>
         <a href="https://wegotrip.tpx.gr/IT3NT6uL" target="_blank" rel="nofollow noopener" class="btn-link">WeGoTrip</a>
       </div>
       <div class="tool-card">
         <h4>✈️ Volo in Ritardo?</h4>
+        <p>Ottieni il tuo risarcimento</p>
         <a href="https://airhelp.tpx.gr/8Ut5MUAB" target="_blank" rel="nofollow noopener" class="btn-link">Rimborso AirHelp</a>
       </div>
     </div>
