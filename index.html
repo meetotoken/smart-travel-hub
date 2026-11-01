@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartTravelHub | Il Tuo Hub per Viaggiare Low Cost e Senza Stress</title>
-    <meta name="description" content="Confronta voli economici, eSIM internazionali, transfer aeroportuali, noleggio auto e deposito bagagli. Risparmia tempo e denaro sul tuo prossimo viaggio.">
+    <meta name="description" content="Confronta voli economici, hotel, eSIM internazionali, transfer aeroportuali, noleggio auto e deposito bagagli. Risparmia tempo e denaro sul tuo prossimo viaggio.">
     <link rel="canonical" href="https://meetotoken.github.io/smart-travel-hub/">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
 
@@ -12,10 +12,10 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://meetotoken.github.io/smart-travel-hub/">
     <meta property="og:title" content="SmartTravelHub | Il Tuo Hub per Viaggiare Low Cost">
-    <meta property="og:description" content="Tutti i migliori servizi per il tuo viaggio: voli, eSIM, transfer, noleggi e tour in un unico posto.">
+    <meta property="og:description" content="Tutti i migliori servizi per il tuo viaggio: voli, hotel, eSIM, transfer, noleggi e tour in un unico posto.">
     <meta property="og:image" content="https://meetotoken.github.io/smart-travel-hub/og-image.jpg">
 
-    <!-- Schema.org JSON-LD (Arricchito con FAQ e Organization) -->
+    <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -34,7 +34,7 @@
               "name": "Come funziona SmartTravelHub?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "SmartTravelHub seleziona e aggrega le migliori piattaforme di viaggio (voli, eSIM, trasporti, depositi bagagli) per farti risparmiare tempo e confrontare le tariffe migliori senza costi aggiuntivi."
+                "text": "SmartTravelHub seleziona e aggrega le migliori piattaforme di viaggio (voli, hotel, eSIM, trasporti, depositi bagagli) per farti risparmiare tempo e confrontare le tariffe migliori senza costi aggiuntivi."
               }
             },
             {
@@ -103,7 +103,7 @@
                 Pianifica il Tuo Viaggio Perfetto Senza Stress
             </h1>
             <p class="text-base md:text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-                Confronta voli, attiva eSIM internazionali, prenota transfer e deposita i bagagli con i migliori strumenti online certificati.
+                Confronta voli, trova alloggi convenienti, attiva eSIM internazionali, prenota transfer e deposita i bagagli con strumenti certificati.
             </p>
             <div class="flex flex-wrap justify-center gap-3">
                 <a href="#servizi" class="bg-white text-blue-600 font-bold px-6 py-3 rounded-lg shadow hover:bg-blue-50 transition">
@@ -116,11 +116,12 @@
         </div>
     </section>
 
-    <!-- Filter Buttons (CRO: Aiuta a trovare subito il servizio) -->
+    <!-- Filter Buttons (Incluso filtro Alloggi) -->
     <div class="max-w-6xl mx-auto px-4 pt-10">
         <div class="flex flex-wrap items-center justify-center gap-2">
             <button class="filter-btn active bg-blue-600 text-white px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="all">Tutti</button>
             <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="trasporti">Voli & Trasporti</button>
+            <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="alloggi">Hotel & Soggiorni</button>
             <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="connettivita">eSIM & Internet</button>
             <button class="filter-btn bg-slate-200 text-slate-700 hover:bg-slate-300 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition" data-category="servizi">Extra & Bagagli</button>
         </div>
@@ -130,7 +131,7 @@
     <main id="servizi" class="max-w-6xl mx-auto px-4 py-8 flex-grow">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             
-            <!-- 1. Voli Low Cost (Top) -->
+            <!-- 1. Voli Low Cost -->
             <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="trasporti">
                 <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
                     Più Scelto
@@ -144,7 +145,21 @@
                 <a href="https://aviasales.tpx.gr/Nde5oFmC" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Cerca Voli Economici</a>
             </div>
 
-            <!-- 2. eSIM Airalo (Top) -->
+            <!-- 2. Hotel & Soggiorni (Klook) -->
+            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="alloggi">
+                <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
+                    Miglior Prezzo
+                </span>
+                <div>
+                    <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-hotel"></i></div>
+                    <h3 class="font-bold text-xl mb-1 text-slate-900">Hotel & Soggiorni</h3>
+                    <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-check"></i> Cancellazione flessibile e offerte</p>
+                    <p class="text-sm text-slate-600 mb-4">Trova hotel, boutique B&B e appartamenti nelle migliori posizioni al prezzo più conveniente con Klook.</p>
+                </div>
+                <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Cerca Hotel & B&B</a>
+            </div>
+
+            <!-- 3. eSIM Airalo -->
             <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="connettivita">
                 <span class="absolute -top-3 right-4 badge-top text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
                     Consigliato
@@ -158,8 +173,8 @@
                 <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Acquista eSIM Airalo</a>
             </div>
 
-            <!-- 3. Deposito Bagagli (Top) -->
-            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border-2 border-blue-500/30 flex flex-col justify-between hover:shadow-lg transition" data-category="servizi">
+            <!-- 4. Deposito Bagagli -->
+            <div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-lg transition" data-category="servizi">
                 <span class="absolute -top-3 right-4 bg-emerald-600 text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
                     Pratico & Sicuro
                 </span>
@@ -169,23 +184,10 @@
                     <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-lock"></i> Deposito custodito da 5€/giorno</p>
                     <p class="text-sm text-slate-600 mb-4">Esplora la città a mani libere lasciando le valigie in punti verificati vicino a stazioni e monumenti con Radical Storage.</p>
                 </div>
-                <a href="https://radicalstorage.tpx.gr/XR76jrDS" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Trova Deposito Vicino a Te</a>
+                <a href="https://radicalstorage.tpx.gr/XR76jrDS" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Trova Deposito Vicino a Te</a>
             </div>
-            <!-- Box Hotel & Soggiorni (Klook) -->
-<div class="service-card relative bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-lg transition" data-category="servizi">
-    <span class="absolute -top-3 right-4 bg-indigo-600 text-white text-[11px] font-bold px-3 py-0.5 rounded-full shadow-sm uppercase tracking-wide">
-        Miglior Prezzo
-    </span>
-    <div>
-        <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-hotel"></i></div>
-        <h3 class="font-bold text-xl mb-1 text-slate-900">Hotel & Soggiorni</h3>
-        <p class="text-xs text-emerald-600 font-semibold mb-2"><i class="fa-solid fa-check"></i> Cancellazione flessibile e offerte esclusive</p>
-        <p class="text-sm text-slate-600 mb-4">Trova hotel, boutique B&B e resort nelle migliori posizioni al prezzo più conveniente con Klook.</p>
-    </div>
-    <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-blue-700 transition">Cerca Hotel & B&B</a>
-</div>
 
-            <!-- 4. Dati Illimitati Yesim -->
+            <!-- 5. Dati Illimitati Yesim -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="connettivita">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-wifi"></i></div>
@@ -195,7 +197,7 @@
                 <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Scopri Piani Yesim</a>
             </div>
 
-            <!-- 5. Treni & Biglietti Klook -->
+            <!-- 6. Treni & Biglietti Klook -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-train"></i></div>
@@ -205,7 +207,7 @@
                 <a href="https://klook.tpx.gr/rABqVRyF" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Prenota Biglietti</a>
             </div>
 
-            <!-- 6. Transfer Aeroporto -->
+            <!-- 7. Transfer Aeroporto -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-taxi"></i></div>
@@ -215,7 +217,7 @@
                 <a href="https://kiwitaxi.tpx.gr/lztFNvIh" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Prenota Transfer</a>
             </div>
 
-            <!-- 7. Noleggio Auto QEEQ -->
+            <!-- 8. Noleggio Auto QEEQ -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-car"></i></div>
@@ -225,7 +227,7 @@
                 <a href="https://qeeq.tpx.gr/Rjp9AwGK" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Noleggia Auto</a>
             </div>
 
-            <!-- 8. Noleggio Auto Peer-to-Peer -->
+            <!-- 9. Noleggio Auto Peer-to-Peer -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-key"></i></div>
@@ -235,7 +237,7 @@
                 <a href="https://getrentacar.tpx.gr/ycgAFAUT" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Trova Auto Locale</a>
             </div>
 
-            <!-- 9. Risarcimento Voli AirHelp -->
+            <!-- 10. Risarcimento Voli AirHelp -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="servizi">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-shield-halved"></i></div>
@@ -245,7 +247,7 @@
                 <a href="https://airhelp.tpx.gr/8Ut5MUAB" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Verifica Risarcimento</a>
             </div>
 
-            <!-- 10. Tour e Esperienze KKday -->
+            <!-- 11. Tour e Esperienze KKday -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="servizi">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-ticket"></i></div>
@@ -255,7 +257,7 @@
                 <a href="https://kkday.tpx.gr/k08GceNY" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Esplora Attrazioni</a>
             </div>
 
-            <!-- 11. Moto e Bici -->
+            <!-- 12. Moto e Bici -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="trasporti">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-motorcycle"></i></div>
@@ -265,7 +267,7 @@
                 <a href="https://bikesbooking.tpx.gr/bPqW91PG" target="_blank" rel="noopener sponsored" class="w-full text-center bg-slate-800 text-white font-semibold py-2.5 px-4 rounded-xl hover:bg-slate-900 transition">Trova Moto</a>
             </div>
 
-            <!-- 12. Audioguide Digitali WeGoTrip -->
+            <!-- 13. Audioguide Digitali WeGoTrip -->
             <div class="service-card bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition" data-category="servizi">
                 <div>
                     <div class="text-blue-600 text-3xl mb-3"><i class="fa-solid fa-headphones"></i></div>
@@ -283,7 +285,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-8">
                 <h2 class="text-2xl md:text-3xl font-black text-slate-900">Guide alle Principali Città Italiane</h2>
-                <p class="text-slate-600 text-sm mt-1">Consigli pratici, collegamenti aeroportuali e attrazioni imperdibili.</p>
+                <p class="text-slate-600 text-sm mt-1">Consigli pratici, hotel migliori, collegamenti e attrazioni imperdibili.</p>
             </div>
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
                 <a href="guide/roma.html" class="bg-white p-3.5 rounded-xl shadow-sm font-semibold hover:border-blue-500 border border-transparent flex items-center gap-2 hover:shadow transition">
@@ -320,7 +322,7 @@
         </div>
     </section>
 
-    <!-- FAQ Section (Aumenta il posizionamento SEO organico ed E-E-A-T) -->
+    <!-- FAQ Section -->
     <section id="faq" class="max-w-4xl mx-auto px-4 py-14">
         <h2 class="text-2xl md:text-3xl font-black text-center text-slate-900 mb-8">Domande Frequenti (FAQ)</h2>
         <div class="space-y-4">
@@ -344,7 +346,7 @@
         <div class="max-w-xl mx-auto">
             <h3 class="text-lg font-bold mb-1 text-slate-900">Sei un travel blogger o gestisci un sito?</h3>
             <p class="text-xs text-slate-600 mb-4">Monetizza il tuo pubblico promuovendo servizi di viaggio con il network Travelpayouts.</p>
-            <a href="https://www.travelpayouts.com/?marker=793698" target="_blank" rel="noopener" class="inline-block bg-white border border-slate-300 text-slate-700 hover:border-blue-600 hover:text-blue-600 px-4 py-2 rounded-lg font-semibold transition text-xs">
+            <a href="https://www.travelpayouts.com/?marker=793698" target="_blank" rel="noopener sponsored" class="inline-block bg-white border border-slate-300 text-slate-700 hover:border-blue-600 hover:text-blue-600 px-4 py-2 rounded-lg font-semibold transition text-xs">
                 Iscriviti a Travelpayouts <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
             </a>
         </div>
@@ -366,7 +368,7 @@
         </div>
     </footer>
 
-    <!-- Banner Consenso Cookie (GDPR Compliance) -->
+    <!-- Banner Consenso Cookie -->
     <div id="cookie-banner" class="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-md bg-white p-5 rounded-2xl shadow-2xl border border-slate-200 z-50 hidden">
         <div class="flex items-start gap-3">
             <div class="text-blue-600 text-xl mt-0.5"><i class="fa-solid fa-cookie-bite"></i></div>
@@ -381,9 +383,7 @@
         </div>
     </div>
 
-    <!-- Script Gestione Mobile Menu, Filtri e Consenso Cookie -->
     <script>
-      // 1. Mobile Menu Toggle
       const menuBtn = document.getElementById('menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
       menuBtn.addEventListener('click', () => {
@@ -393,7 +393,6 @@
         link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
       });
 
-      // 2. Filtri Categoria Servizi
       const filterBtns = document.querySelectorAll('.filter-btn');
       const cards = document.querySelectorAll('.service-card');
 
@@ -417,7 +416,6 @@
         });
       });
 
-      // 3. GDPR Cookie Consent & Condizionale GA4
       const GA_ID = 'G-6BTRRPGHZW';
 
       function loadAnalytics() {
