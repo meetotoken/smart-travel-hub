@@ -190,7 +190,7 @@
     </p>
   </footer>
 
-  <!-- GDPR Cookie Banner & Script Analytics Condizionale -->
+  <!-- GDPR Cookie Banner & Script Analytics Condizionale + Travelpayouts -->
   <div id="cookie-banner" class="cookie-banner">
     <h4 style="margin: 0 0 0.5rem 0; font-size: 0.95rem;">Informativa Cookie</h4>
     <p style="font-size: 0.85rem; color: #64748b; margin: 0 0 1rem 0;">Utilizziamo cookie di analisi statistica per comprendere l'uso del sito.</p>
@@ -203,7 +203,7 @@
   <script>
     const GA_ID = 'G-6BTRRPGHZW';
 
-    function loadGA() {
+    function loadAnalytics() {
       if (window.gaLoaded) return;
       window.gaLoaded = true;
       const s = document.createElement('script');
@@ -214,13 +214,19 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', GA_ID);
+
+      var scriptTP = document.createElement("script");
+      scriptTP.async = 1;
+      scriptTP.setAttribute("data-cmp-ab", "2");
+      scriptTP.src = "https://tp-em.com/NTg5MDMw.js?t=589030";
+      document.head.appendChild(scriptTP);
     }
 
     const consent = localStorage.getItem('sth_cookie_consent');
     const banner = document.getElementById('cookie-banner');
 
     if (consent === 'granted') {
-      loadGA();
+      loadAnalytics();
     } else if (!consent) {
       banner.style.display = 'block';
     }
@@ -228,7 +234,7 @@
     document.getElementById('btn-accept').addEventListener('click', () => {
       localStorage.setItem('sth_cookie_consent', 'granted');
       banner.style.display = 'none';
-      loadGA();
+      loadAnalytics();
     });
 
     document.getElementById('btn-reject').addEventListener('click', () => {
