@@ -159,7 +159,7 @@
     <h2>🌐 Connectivity & Amalfi Coast Excursions</h2>
     <ul>
       <li>📱 <strong>Instant Travel eSIM:</strong> Maintain strong mobile reception along the cliffs of Capri and Sorrento with a digital eSIM from <a href="https://airalo.tpx.gr/92EACKvl" target="_blank" rel="noopener sponsored">Airalo</a> or unlimited data from <a href="https://yesim.tpx.gr/7nVIEjfO" target="_blank" rel="noopener sponsored">Yesim</a>.</li>
-      <li>🚗 <strong>Amalfi Coast Car Rental:</strong> If taking a road trip to Positano, Ravello, and Sorrento, compare vehicles at Naples Airport via <a href="https://qeeq.tpx.gr/Rjp9AwGK" target="_blank" rel="noopener sponsored">QEEQ</a>.</li>
+      <li>🚗 <strong>Amalfi Coast Car Rental:</strong> If taking a road trip to Positano, Ravello, and Sorrento, compare vehicles at Naples Airport via <a href="https://autoeurope.tpx.gr/TP3VldE6" target="_blank" rel="noopener sponsored">Auto Europe</a>.</li>
     </ul>
 
     <hr style="margin-top: 3rem; border: 0; border-top: 1px solid var(--border);">
@@ -191,12 +191,12 @@
         <a href="rome.html" class="city-pill">Rome</a>
         <a href="florence.html" class="city-pill">Florence</a>
         <a href="venice.html" class="city-pill">Venice</a>
-        <a href="../../guide/milano.html" class="city-pill">Milan</a>
-        <a href="../../guide/bologna.html" class="city-pill">Bologna</a>
-        <a href="../../guide/torino.html" class="city-pill">Torino</a>
-        <a href="../../guide/palermo.html" class="city-pill">Palermo</a>
-        <a href="../../guide/verona.html" class="city-pill">Verona</a>
-        <a href="../../guide/catania.html" class="city-pill">Catania</a>
+        <a href="milan.html" class="city-pill">Milan</a>
+        <a href="bologna.html" class="city-pill">Bologna</a>
+        <a href="turin.html" class="city-pill">Turin</a>
+        <a href="palermo.html" class="city-pill">Palermo</a>
+        <a href="verona.html" class="city-pill">Verona</a>
+        <a href="catania.html" class="city-pill">Catania</a>
       </div>
     </div>
   </main>
@@ -204,7 +204,6 @@
   <footer>
     <p style="margin-bottom: 0.5rem;">
       <a href="../index.html" style="color: var(--primary); text-decoration: none; font-weight: bold;">SmartTravelHub Home</a> &bull; 
-      <a href="../../privacy.html" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Privacy Policy</a> &bull; 
       <a href="#" onclick="openCookieSettings(); return false;" style="color: var(--primary); text-decoration: none; margin-left: 0.4rem;">Cookie Settings</a> &bull; 
       &copy; 2026
     </p>
@@ -213,7 +212,7 @@
     </p>
   </footer>
 
-  <!-- GDPR Cookie Banner -->
+  <!-- GDPR Cookie Banner & Script Analytics Condizionale + Travelpayouts -->
   <div id="cookie-banner" class="cookie-banner">
     <h4 style="margin: 0 0 0.5rem 0; font-size: 0.95rem;">Cookie Policy</h4>
     <p style="font-size: 0.85rem; color: #64748b; margin: 0 0 1rem 0;">We use anonymous statistical cookies to understand site usage.</p>
@@ -226,7 +225,7 @@
   <script>
     const GA_ID = 'G-6BTRRPGHZW';
 
-    function loadGA() {
+    function loadAnalytics() {
       if (window.gaLoaded) return;
       window.gaLoaded = true;
       const s = document.createElement('script');
@@ -237,13 +236,19 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', GA_ID);
+
+      var scriptTP = document.createElement("script");
+      scriptTP.async = 1;
+      scriptTP.setAttribute("data-cmp-ab", "2");
+      scriptTP.src = "https://tp-em.com/NTg5MDMw.js?t=589030";
+      document.head.appendChild(scriptTP);
     }
 
     const consent = localStorage.getItem('sth_cookie_consent');
     const banner = document.getElementById('cookie-banner');
 
     if (consent === 'granted') {
-      loadGA();
+      loadAnalytics();
     } else if (!consent) {
       banner.style.display = 'block';
     }
@@ -251,7 +256,7 @@
     document.getElementById('btn-accept').addEventListener('click', () => {
       localStorage.setItem('sth_cookie_consent', 'granted');
       banner.style.display = 'none';
-      loadGA();
+      loadAnalytics();
     });
 
     document.getElementById('btn-reject').addEventListener('click', () => {
