@@ -393,7 +393,7 @@
             <div>
                 <h4 class="font-bold text-slate-900 text-sm mb-1">Rispettiamo la tua privacy</h4>
                 <p class="text-xs text-slate-600 mb-3">
-                    Utilizziamo cookie statistici anonimi (Google Analytics) per capire quali guide risultano più utili. Leggi la nostra <a href="privacy.html" class="text-blue-600 underline">Privacy Policy</a>.
+                    Utilizziamo cookie statistici anonimi (Google Analytics) e tracciamenti di affiliazione per offrirti la migliore esperienza. Leggi la nostra <a href="privacy.html" class="text-blue-600 underline">Privacy Policy</a>.
                 </p>
                 <div class="flex gap-2">
                     <button id="cookie-accept" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold py-1.5 px-3 rounded-lg transition">Accetta</button>
@@ -403,7 +403,7 @@
         </div>
     </div>
 
-    <!-- Script Gestione Mobile Menu, Filtri e Consenso Cookie -->
+    <!-- Script Gestione Mobile Menu, Filtri e Consenso Cookie + Tracking -->
     <script>
       // 1. Mobile Menu Toggle
       const menuBtn = document.getElementById('menu-btn');
@@ -439,21 +439,30 @@
         });
       });
 
-      // 3. GDPR Cookie Consent & GA4 Condizionale
+      // 3. GDPR Cookie Consent & GA4 + Travelpayouts Tracking Script (ID: 589030)
       const GA_ID = 'G-6BTRRPGHZW';
 
       function loadAnalytics() {
         if (window.gaLoaded) return;
         window.gaLoaded = true;
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
-        document.head.appendChild(script);
+
+        // Carica Google Analytics
+        const scriptGA = document.createElement('script');
+        scriptGA.async = true;
+        scriptGA.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+        document.head.appendChild(scriptGA);
 
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', GA_ID);
+
+        // Carica Travelpayouts Tracking Script (ID: 589030)
+        var scriptTP = document.createElement("script");
+        scriptTP.async = 1;
+        scriptTP.setAttribute("data-cmp-ab", "2");
+        scriptTP.src = "https://tp-em.com/NTg5MDMw.js?t=589030";
+        document.head.appendChild(scriptTP);
       }
 
       const banner = document.getElementById('cookie-banner');
