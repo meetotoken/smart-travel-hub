@@ -368,7 +368,7 @@
         </div>
     </section>
 
-    <!-- Footer (Link a privacy.html in inglese corretto) -->
+    <!-- Footer -->
     <footer class="bg-slate-900 text-slate-400 py-8 text-xs border-t border-slate-800">
         <div class="max-w-6xl mx-auto px-4 text-center space-y-3">
             <div class="flex justify-center gap-4 text-slate-300 font-medium flex-wrap">
@@ -385,14 +385,14 @@
         </div>
     </footer>
 
-    <!-- Cookie Consent Banner (Link a privacy.html in inglese corretto) -->
+    <!-- Cookie Consent Banner -->
     <div id="cookie-banner" class="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-md bg-white p-5 rounded-2xl shadow-2xl border border-slate-200 z-50 hidden">
         <div class="flex items-start gap-3">
             <div class="text-blue-600 text-xl mt-0.5"><i class="fa-solid fa-cookie-bite"></i></div>
             <div>
                 <h4 class="font-bold text-slate-900 text-sm mb-1">We respect your privacy</h4>
                 <p class="text-xs text-slate-600 mb-3">
-                    We use anonymous statistical cookies (Google Analytics) to understand which travel guides are most helpful. Read our <a href="privacy.html" class="text-blue-600 underline">Privacy Policy</a>.
+                    We use anonymous statistical cookies (Google Analytics) and affiliate tracking to provide you with the best travel experience. Read our <a href="privacy.html" class="text-blue-600 underline">Privacy Policy</a>.
                 </p>
                 <div class="flex gap-2">
                     <button id="cookie-accept" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold py-1.5 px-3 rounded-lg transition">Accept</button>
@@ -402,7 +402,7 @@
         </div>
     </div>
 
-    <!-- Script for Filters, Mobile Menu & Analytics -->
+    <!-- Script for Filters, Mobile Menu, Cookie Consent & Analytics + Travelpayouts Tracking -->
     <script>
       const menuBtn = document.getElementById('menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
@@ -436,20 +436,30 @@
         });
       });
 
+      // GDPR Cookie Consent & GA4 + Travelpayouts Tracking Script (ID: 589030)
       const GA_ID = 'G-6BTRRPGHZW';
 
       function loadAnalytics() {
         if (window.gaLoaded) return;
         window.gaLoaded = true;
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
-        document.head.appendChild(script);
+
+        // Load Google Analytics
+        const scriptGA = document.createElement('script');
+        scriptGA.async = true;
+        scriptGA.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+        document.head.appendChild(scriptGA);
 
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', GA_ID);
+
+        // Load Travelpayouts Tracking Script (ID: 589030)
+        var scriptTP = document.createElement("script");
+        scriptTP.async = 1;
+        scriptTP.setAttribute("data-cmp-ab", "2");
+        scriptTP.src = "https://tp-em.com/NTg5MDMw.js?t=589030";
+        document.head.appendChild(scriptTP);
       }
 
       const banner = document.getElementById('cookie-banner');
